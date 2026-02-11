@@ -1,0 +1,65 @@
+export default function Footer() {
+
+    return <>
+
+        <footer className="bg-[#212121] w-100%">
+
+            <div className="flex">
+
+                <section className="w-[25%]">
+                    <img className="w-60 h-60" src="./vero-morgade-NBG.png" alt="" />
+                    <h2 className="text-white pt-2">Dra. Verónica Morgade</h2>
+                    <h2 className="text-white pt-2">Mendoza 1667 Quo Container Center</h2>
+                    <h2 className="text-white pt-2">Ingeniero Maschwitz CP:1623</h2>
+                    <h2 className="text-white pt-2">Buenos Aires, Argentina</h2>
+                </section>
+
+                <section className="w-[25%]">
+
+                    <iframe className="w-120 h-90" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.48112148252636!2d-58.74722817116939!3d-34.380412567047706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fc3f5b326f9%3A0x96e9e79868b7a633!2sCl%C3%ADnica%20de%20Nutrici%C3%B3n%20y%20Est%C3%A9tica%20Dra.%20Ver%C3%B3nica%20Morgade!5e0!3m2!1ses!2sar!4v1770841332106!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+
+                <section className="ml-8 w-[25%]">
+                    <h2 className="text-white pt-2 text-2xl mb-8">Nuestras Redes</h2>
+                    <ul className="flex flex-col gap-4">
+                        <li className="w-auto h-10 ">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.instagram.com/dra.morgade">
+                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/igF.svg" alt="" /> /dra.morgade
+                            </a>
+                        </li>
+                        <li className="w-auto h-10">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.facebook.com/dra.morgade">
+                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/fbF.svg" alt="" /> /dra.morgade
+                            </a>
+                        </li>
+                        <li className="w-auto h-10">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://wa.me/5491168638712?text=¡Hola%20dra.%20Morgade!">
+                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/wspF.svg" alt="" /> (+54 11) 15-6863-8712
+                            </a>
+                        </li>
+                        <li className="w-auto h-10">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.facebook.com/dra.morgade">
+                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/gmF.svg" alt="" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section className="w-[25%]">
+                    <h2 className="text-white text-2xl pt-2">Horarios de atención:</h2>
+                    <h2 className="text-white pt-2">Lunes: Cerrado</h2>
+                    <h2 className="text-white pt-2">Martes: 10am. - 7 pm.</h2>
+                    <h2 className="text-white pt-2">Miércoles: 10am. - 7pm.</h2>
+                    <h2 className="text-white pt-2">Jueves: 10am. - 7pm.</h2>
+                    <h2 className="text-white pt-2">Viernes: 10 am. - 7pm.</h2>
+                    <h2 className="text-white pt-2">Sábados: 10 am. - 2pm.</h2>
+                    <h2 className="text-white pt-2">Domingo: Cerrado</h2>
+                </section>
+
+            </div>
+
+        </footer>
+
+    </>
+}
