@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import NavBar from './Navigation/NavBar'
 import Footer from './FooterView/Footer'
 import Home from './HomeView/Home'
+import IconWsp from './IconWsp'
 
 function App() {
 
@@ -12,7 +13,7 @@ function App() {
       <BrowserRouter>
 
         <NavBar></NavBar>
-      
+      <IconWsp></IconWsp>
 
         <Routes>
         <Route exact path='/' element={<Home/>}></Route>
