@@ -8,15 +8,15 @@ export default function NavBar() {
         <header>
 
             <ContactNavBar></ContactNavBar>
-            <nav className="w-[70%] h-auto mr-auto ml-auto">
+            <nav className="w-[60%] h-auto mx-auto mb-8">
 
                 <section className="w-100% flex justify-between">
 
-                    <div >
-                        <img className="h-30 w-150" src="/NavBar/vero-morgade-header.png" alt="" />
+                    <div className="w-[25%]">
+                        <img className="h-auto w-auto" src="/NavBar/vero-morgade-header2.png" alt="" />
                     </div>
 
-                    <div className="w-1/2 bg-red-200 flex gap-8 justify-end">
+                    <div className="w-1/2 flex gap-8 justify-end items-center">
                         <NavBarButton nombre="Inicio" to="/"></NavBarButton>
                         <NavBarButton nombre="Servicios" to="/Servicios"></NavBarButton>
                         <NavBarButton nombre="Nosotras" to="/Nosotras"></NavBarButton>

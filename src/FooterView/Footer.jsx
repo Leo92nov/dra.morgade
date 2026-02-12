@@ -16,29 +16,80 @@ export default function Footer() {
 
                 <section className="w-[25%]">
 
-                    <iframe className="w-120 h-90" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.48112148252636!2d-58.74722817116939!3d-34.380412567047706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fc3f5b326f9%3A0x96e9e79868b7a633!2sCl%C3%ADnica%20de%20Nutrici%C3%B3n%20y%20Est%C3%A9tica%20Dra.%20Ver%C3%B3nica%20Morgade!5e0!3m2!1ses!2sar!4v1770841332106!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className="w-120 h-90" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.48112148252636!2d-58.74722817116939!3d-34.380412567047706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fc3f5b326f9%3A0x96e9e79868b7a633!2sCl%C3%ADnica%20de%20Nutrici%C3%B3n%20y%20Est%C3%A9tica%20Dra.%20Ver%C3%B3nica%20Morgade!5e0!3m2!1ses!2sar!4v1770841332106!5m2!1ses!2sar" loading="lazy"></iframe>
                 </section>
 
                 <section className="ml-8 w-[25%]">
-                    <h2 className="text-white pt-2 text-2xl mb-8">Nuestras Redes</h2>
+                    <h2 className="text-white pt-2 text-2xl mb-8">Nuestras Redes:</h2>
                     <ul className="flex flex-col gap-4">
-                        <li className="w-auto h-10 ">
-                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.instagram.com/dra.morgade">
-                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/igF.svg" alt="" /> /dra.morgade
+                        <li className="w-[45%] h-10 relative inline-block text-gray-700 hover:text-[#004225] 
+                            transition-colors duration-300
+                            before:content-['']
+                            before:absolute
+                            before:left-1/2
+                            before:bottom-0
+                            before:h-[2px]
+                            before:w-0
+                            before:bg-[#004225]
+                            before:transition-all
+                            before:duration-300
+                            hover:before:left-0
+                            hover:before:w-full">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic transition-transform duration-300 hover:scale-101" href="https://www.instagram.com/dra.morgade">
+                                <img className="w-7 h-7 transition-transform duration-300 hover:scale-110" src="/NavBar/igF.svg" alt="" /> /dra.morgade
                             </a>
                         </li>
-                        <li className="w-auto h-10">
-                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.facebook.com/dra.morgade">
-                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/fbF.svg" alt="" /> /dra.morgade
+                        <li className="w-[45%] h-10 relative inline-block text-gray-700 
+          
+                            transition-colors duration-400
+                            before:content-['']
+                            before:absolute
+                            before:left-1/2
+                            before:bottom-0
+                            before:h-[2px]
+                            before:w-0
+                            before:bg-[#004225]
+                            before:transition-all
+                            before:duration-300
+                            hover:before:left-0
+                            hover:before:w-full">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic transition-transform duration-300 hover:scale-101" href="https://www.facebook.com/dra.morgade">
+                                <img className="w-8 h-8 transition-transform duration-300 hover:scale-110" src="/NavBar/fbF.svg" alt="" /> /dra.morgade
                             </a>
                         </li>
-                        <li className="w-auto h-10">
-                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://wa.me/5491168638712?text=¡Hola%20dra.%20Morgade!">
-                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/wspF.svg" alt="" /> (+54 11) 15-6863-8712
+                        <li className="w-[65%] h-10 relative inline-block text-gray-700 
+                            hover:text-[#004225] 
+                            transition-colors duration-300
+                            before:content-['']
+                            before:absolute
+                            before:left-1/2
+                            before:bottom-0
+                            before:h-[2px]
+                            before:w-0
+                            before:bg-[#004225]
+                            before:transition-all
+                            before:duration-300
+                            hover:before:left-0
+                            hover:before:w-full">
+                            <a className="w-auto h-full text-white flex items-center gap-8 text-xl italic transition-transform duration-300 hover:scale-101" href="https://wa.me/5491168638712?text=¡Hola%20dra.%20Morgade!">
+                                <img className="w-8 h-8 transition-transform duration-300 hover:scale-110" src="/NavBar/wspF.svg" alt="" /> (+54 11) 15-6863-8712
                             </a>
                         </li>
-                        <li className="w-auto h-10">
-                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic" href="https://www.facebook.com/dra.morgade">
+                        <li className="w-[65%] h-10 relative inline-block text-gray-700
+                            hover:text-[#004225] 
+                            transition-colors duration-300
+                            before:content-['']
+                            before:absolute
+                            before:left-1/2
+                            before:bottom-0
+                            before:h-[2px]
+                            before:w-0
+                            before:bg-[#004225]
+                            before:transition-all
+                            before:duration-300
+                            hover:before:left-0
+                            hover:before:w-full">
+                            <a className="w-full h-full text-white flex items-center gap-8 text-xl italic  transition-transform duration-300 hover:scale-101" href="https://www.facebook.com/dra.morgade">
                                 <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/gmF.svg" alt="" />
                             </a>
                         </li>
