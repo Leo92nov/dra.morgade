@@ -1,10 +1,10 @@
 
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from './Navigation/NavBar'
-import Footer from './FooterView/Footer'
-import Home from './HomeView/Home'
-import IconWsp from './IconWsp'
+import NavBar from './components/Navigation/NavBar'
+import Footer from './components/FooterView/Footer'
+import Home from './components/HomeView/Home'
+import IconWsp from './components/IconWsp'
 
 function App() {
 
