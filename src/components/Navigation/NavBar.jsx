@@ -21,6 +21,7 @@ export default function NavBar() {
                         <NavBarButton nombre="Servicios" to="/Servicios"></NavBarButton>
                         <NavBarButton nombre="Nosotras" to="/Nosotras"></NavBarButton>
                         <NavBarButton nombre="Contacto" to="/Contacto"></NavBarButton>
+
                     </div>
 
                 </section>

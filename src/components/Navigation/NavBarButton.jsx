@@ -6,8 +6,31 @@ export default function NavBarButton({to, nombre}){
     return<>
 
     
+<button
+  className="
+    relative pb-4
+    text-gray-500 text-xl
+    hover:scale-105
+    transition-transform duration-500
+    hover:text-[#004225]
 
-        <button className="text-gray-500 text-xl border-t-2 border-transparent hover:scale-105 transition-transform duration-300 hover:border-t-[#004225] hover:text-[#004225]"><Link to={to}>{nombre}</Link></button>
+    after:content-['']
+    after:absolute
+    after:left-0
+    after:bottom-0
+    after:h-[2px]
+    after:w-full
+    after:bg-[#004225]
+    after:origin-center
+    after:scale-x-0
+    after:transition-transform
+    after:duration-300
+
+    hover:after:scale-x-100
+  "
+>
+  <Link to={to}>{nombre}</Link>
+</button>
 
     
     </>

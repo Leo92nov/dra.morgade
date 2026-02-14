@@ -1,4 +1,5 @@
 import BeforeAfter from "./BeforeAfter";
+import CarruselMarcas from "./CarruselMarcas";
 import SliderHome from "./SliderHome";
 
 export default function Home() {
@@ -16,5 +17,6 @@ export default function Home() {
                 <BeforeAfter antes="/antes-despues/gallo-antes.png" despues="/antes-despues/gallo-despues.png"></BeforeAfter>
             </section>
         </section>
+        <CarruselMarcas></CarruselMarcas>
     </>
 }

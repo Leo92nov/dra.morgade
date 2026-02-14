@@ -38,7 +38,7 @@ export default function BeforeAfterElfsight({ antes, despues, initial = 50 }) {
   }, []);
 
   return (
-    <div className="w-full max-w-[520px] mx-auto">
+    <div className="w-full max-w-[350px] mx-auto">
       <div
         ref={ref}
         onPointerDown={onPointerDown}

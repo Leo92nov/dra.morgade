@@ -1,9 +1,20 @@
 @import "tailwindcss";
-@theme{
 
-    --font-display: "Satoshi", "sans-serif";
-
+@keyframes line-draw-erase {
+  0% { transform: scaleX(0); }
+  50% { transform: scaleX(1); }
+  100% { transform: scaleX(0); }
 }
 
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
 
-
+.animate-scroll {
+  animation: scroll 25s linear infinite;
+}
