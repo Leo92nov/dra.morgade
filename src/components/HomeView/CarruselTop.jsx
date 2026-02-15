@@ -78,14 +78,14 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <section className="relative w-full h-[900px] overflow-hidden">
+        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[1024px] overflow-hidden">
             {/* Slides */}
             {slides.map((slide, index) => (
                 <img
                     key={index}
                     src={slide.img}
                     alt=""
-                    className={`absolute inset-0 w-full h-full object-cover object-left transition-opacity duration-[4000ms] ${index === current ? "opacity-100" : "opacity-0"
+                    className={`absolute inset-0 w-full h-full object-center xl:h-full xl:object-cover h-auto lg:object-contain xl:object-top transition-opacity duration-[4000ms] ${index === current ? "opacity-100" : "opacity-0"
                         }`}
                 />
             ))}
@@ -95,45 +95,49 @@ export default function CarruselTop() {
 
             {/* Textos (fade + typewriter) */}
             <div
-                className={`absolute top-[30%] left-[75%] -translate-x-1/2 text-white text-center
-  transition-opacity duration-[4000ms] ${textVisible ? "opacity-100" : "opacity-0"}`}
+                className={`absolute
+                           top-[5%] left-[60%]
+                           xl:w-auto xl:top-[30%] xl:left-[75%] lg:top-[30%] lg:left-[55%] md:left-[46%] w-[500px] xl:-translate-x-1/2
+                           text-white text-center
+                           transition-opacity duration-[4000ms]
+                           ${textVisible ? "opacity-100" : "opacity-0"}`}
             >
                 {/* Reservo altura para que el botón NO se mueva */}
                 <div className="min-h-[56px]">
-                    <h1 className="text-5xl font-light italic drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h1 className="xl:text-5xl lg:text-3xl text-2xl  font-light italic drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedTitle}
                     </h1>
                 </div>
 
                 <div className="min-h-[36px] mt-2">
-                    <h2 className="text-2xl drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h2 className="xl:text-2xl text-lg drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedSubtitle}
                     </h2>
                 </div>
-<button
-  className="relative overflow-hidden w-50 bg-[#004225] mt-2 px-8 rounded-full text-lg text-white group h-[52px]
+                <button
+                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl mt-2 px-8 rounded-full w-40 text-white group h-[52px]
              shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
->
-  {/* Texto que sale (más rápido) */}
-  <span
-    className="absolute inset-0 flex items-center justify-center
-               transition-transform duration-500
+                >
+                    {/* Texto que sale (más rápido) */}
+                    <span
+                        className="absolute inset-0 flex items-center justify-center
+               transition-transform duration-500 lg:mr-2
                ease-in
                group-hover:-translate-y-full"
-  >
-    Agendar consulta
-  </span>
+                    >
+                        Agendar consulta
+                    </span>
 
-  {/* Texto que entra (más lento) */}
-  <span
-    className="absolute inset-0 flex items-center justify-center
+                    {/* Texto que entra (más lento) */}
+                    <span
+                        className="absolute inset-0 flex items-center justify-center
                translate-y-full transition-transform duration-600
                ease-out
                group-hover:translate-y-0"
-  >
-    Agendar consulta
-  </span>
-</button>
+                    >
+                        Agendar consulta
+                    </span>
+                </button>
 
 
             </div>

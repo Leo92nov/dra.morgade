@@ -9,7 +9,7 @@ export default function NavBar() {
         
             <nav className="w-[60%] h-auto mx-auto">
 
-                <section className="w-100% flex justify-between">
+                <section className="w-100% flex justify-between items-end">
 
                     <div className="w-[25%]">
                         <img className="h-auto w-auto" src="/NavBar/vero-morgade-header2.png" alt="" />

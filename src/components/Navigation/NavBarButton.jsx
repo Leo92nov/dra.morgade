@@ -8,7 +8,7 @@ export default function NavBarButton({to, nombre}){
     
 <button
   className="
-    relative pb-4
+    relative pb-1 pt-4
     text-gray-500 text-xl
     hover:scale-105
     transition-transform duration-500
@@ -17,7 +17,7 @@ export default function NavBarButton({to, nombre}){
     after:content-['']
     after:absolute
     after:left-0
-    after:bottom-0
+    after:top-0
     after:h-[2px]
     after:w-full
     after:bg-[#004225]
