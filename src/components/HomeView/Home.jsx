@@ -1,12 +1,11 @@
 import BeforeAfter from "./BeforeAfter";
 import CarruselMarcas from "./CarruselMarcas";
-import SliderHome from "./SliderHome";
+
 
 export default function Home() {
 
     return <>
 
-        <SliderHome></SliderHome>
 
         <h2 className="text-center text-2xl my-8">Algunos de nuestros resultados</h2>
         <section className="w-full flex justify-center">

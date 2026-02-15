@@ -5,6 +5,8 @@ import NavBar from './components/Navigation/NavBar'
 import Footer from './components/FooterView/Footer'
 import Home from './components/HomeView/Home'
 import IconWsp from './components/IconWsp'
+import CarruselTop from './components/HomeView/CarruselTop'
+
 
 function App() {
 
@@ -13,17 +15,19 @@ function App() {
       <BrowserRouter>
 
         <NavBar></NavBar>
-      <IconWsp></IconWsp>
+        <IconWsp></IconWsp>
+     <CarruselTop></CarruselTop>
+
 
         <Routes>
-        <Route exact path='/' element={<Home/>}></Route>
-        <Route></Route>
-        <Route></Route>
-        <Route></Route>
+          <Route exact path='/' element={<Home />}></Route>
+          <Route></Route>
+          <Route></Route>
+          <Route></Route>
 
         </Routes>
-     
-      <Footer></Footer>
+
+        <Footer></Footer>
 
       </BrowserRouter>
     </>

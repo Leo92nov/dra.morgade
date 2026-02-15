@@ -1,14 +1,13 @@
-import ContactNavBar from "./ContactNavBar";
 import NavBarButton from "./NavBarButton";
 
 export default function NavBar() {
 
     return <>
 
-        <header>
+        <header className="">
 
-            <ContactNavBar></ContactNavBar>
-            <nav className="w-[60%] h-auto mx-auto mb-8">
+        
+            <nav className="w-[60%] h-auto mx-auto">
 
                 <section className="w-100% flex justify-between">
 
