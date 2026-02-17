@@ -78,15 +78,17 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[1024px] overflow-hidden">
+        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[800px] overflow-hidden">
             {/* Slides */}
             {slides.map((slide, index) => (
                 <img
                     key={index}
                     src={slide.img}
                     alt=""
-                    className={`absolute inset-0 w-full h-full object-center xl:h-full xl:object-cover h-auto lg:object-contain xl:object-top transition-opacity duration-[4000ms] ${index === current ? "opacity-100" : "opacity-0"
-                        }`}
+                    className={`absolute inset-0 w-full h-full object-cover object-center
+transition-opacity duration-[4000ms]
+${index === current ? "opacity-100" : "opacity-0"}`}
+
                 />
             ))}
 
@@ -104,7 +106,7 @@ export default function CarruselTop() {
             >
                 {/* Reservo altura para que el botón NO se mueva */}
                 <div className="min-h-[56px]">
-                    <h1 className="xl:text-5xl lg:text-3xl text-2xl  font-light italic drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h1 className="xl:text-5xl lg:text-3xl text-2xl xl:mb-4 font-light italic drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedTitle}
                     </h1>
                 </div>
@@ -115,7 +117,7 @@ export default function CarruselTop() {
                     </h2>
                 </div>
                 <button
-                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl mt-2 px-8 rounded-full w-40 text-white group h-[52px]
+                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl xl:mt-4 px-8 rounded-full w-40 text-white group h-[52px]
              shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
                 >
                     {/* Texto que sale (más rápido) */}
