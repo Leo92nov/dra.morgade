@@ -11,7 +11,7 @@ export default function Home() {
     return <>
         <CarruselTop></CarruselTop>
         <h2 className="text-center text-2xl my-8 ">Nuestros tratamientos</h2>
-        <section className="flex justify-center gap-12 wrap lg:w-[70%] mx-auto ">
+        <section className="flex justify-center gap-12 wrap xl:w-[70%] lg:w-[90%] mx-auto ">
             <CardServiciosHome img='/HomeCards/facial.webp' servicio='Facial'/>
             <CardServiciosHome img='/HomeCards/corporal.webp' servicio='Corporal'/>
             <CardServiciosHome img='/HomeCards/capilar.webp' servicio='Capilar'/>

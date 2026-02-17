@@ -78,14 +78,14 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[800px] overflow-hidden">
+        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[900px] overflow-hidden">
             {/* Slides */}
             {slides.map((slide, index) => (
                 <img
                     key={index}
                     src={slide.img}
                     alt=""
-                    className={`absolute inset-0 w-full h-full object-cover object-center
+                    className={`absolute inset-0 w-full h-full object-cover 2xl:object-top
 transition-opacity duration-[4000ms]
 ${index === current ? "opacity-100" : "opacity-0"}`}
 
@@ -111,13 +111,13 @@ ${index === current ? "opacity-100" : "opacity-0"}`}
                     </h1>
                 </div>
 
-                <div className="min-h-[36px] mt-2">
+                <div className="min-h-[36px] xl:mt-8">
                     <h2 className="xl:text-2xl text-lg drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedSubtitle}
                     </h2>
                 </div>
                 <button
-                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl xl:mt-4 px-8 rounded-full w-40 text-white group h-[52px]
+                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl xl:mt-8 px-8 rounded-full w-40 text-white group h-[52px]
              shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
                 >
                     {/* Texto que sale (más rápido) */}

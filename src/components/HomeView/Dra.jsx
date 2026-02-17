@@ -6,7 +6,6 @@ export default function Dra() {
     const [active, setActive] = useState(false);
     const [showListones, setShowListones] = useState(false);
 
-    // Detectar entrada en viewport
     useEffect(() => {
         const el = sectionRef.current;
         if (!el) return;
@@ -25,13 +24,11 @@ export default function Dra() {
         return () => observer.disconnect();
     }, []);
 
-    // Mostrar listones cuando termina el fondo
     useEffect(() => {
         if (active) {
             const timer = setTimeout(() => {
                 setShowListones(true);
-            }, 1100); // mismo tiempo que animación del fondo
-
+            }, 1100);
             return () => clearTimeout(timer);
         }
     }, [active]);
@@ -41,7 +38,7 @@ export default function Dra() {
             ref={sectionRef}
             className="relative 2xl:w-[70%] mx-auto my-8 overflow-hidden"
         >
-            {/* Fondo animado */}
+            {/* Fondo */}
             <div
                 className={[
                     "absolute inset-0 w-[160%] bg-[#004225] will-change-transform",
@@ -50,56 +47,58 @@ export default function Dra() {
                 ].join(" ")}
             />
 
-            {/* Contenido encima */}
-            <div className="relative w-[100%] xl:ml-4 flex justify-between gap-6">
+            {/* Contenido */}
+            <div className="relative w-full flex justify-between gap-6 h-[auto] xl:justify-between xl:items-center pl-8">
 
-                {/* Listones con fade */}
+                {/* LISTONES */}
                 <div
                     className={[
-                        "transition-all duration-700 flex justify-center items-center xl:w-[55%] flex-wrap gap-8 h-[100%] my-auto",
+                        "transition-all duration-700 flex h-full w-auto items-center",
+                        "lg:w-[40%] lg:flex-col lg:justify-between ",
+                        "xl:flex-row xl:w-[45%] xl:gap-20",
                         showListones
                             ? "opacity-100 translate-y-0"
                             : "opacity-0 translate-y-6",
                     ].join(" ")}
                 >
-                    <div className="flex items-end gap-4 xl:mb-4">
+                    <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
                         <Listones
-                        titulo='Calidad Asegurada'
+                            titulo="Calidad Asegurada"
                             img="/listones/seguridad.png"
-                            parrafo="Trabajmos con protocolos estrictos y respaldados por tecnología certificada y productos de calidad superior a nivel internacional."
+                            parrafo="Trabajamos con protocolos estrictos respaldados, tecnología certificada y productos de reconocidos a nivel internacional."
                         />
-                    
 
-                    
                         <Listones
-                        titulo='Clinica de excelencia'
+                            titulo="Clínica de excelencia"
                             img="/listones/clinica.png"
-                            parrafo="Nuestras instalaciones fueron cuidadosamente diseñadas con ambientes luminosos y confortables que garantizan una atención de primer nivel."
+                            parrafo="Nuestras instalaciones fueron diseñadas con ambientes luminosos y confortables que garantizan una atención de primer nivel."
                         />
                     </div>
 
-                    <div className="flex gap-4">
+                    <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
                         <Listones
-                            img="/listones/seguridad.png"
-                            parrafo="Protocolos respaldados por tecnología certificada y productos de calidad superior a nivel internacional."
+                            titulo="Productos premium"
+                            img="/listones/crema.png"
+                            parrafo="Nuestros productos tópicos son seleccionados bajo estrictos estándares de excelencia y adaptados a cada tratamiento."
                         />
-                    
-                    
-                    
+
                         <Listones
-                            img="/listones/seguridad.png"
-                            parrafo="Protocolos respaldados por tecnología certificada y productos de calidad superior a nivel internacional."
+                            titulo="Protocolos certificados"
+                            img="/listones/rrhh.png"
+                            parrafo="Nuestro compromiso profesional y la atención personalizada se refleja en cada detalle, ofreciendo una experiencia de máxima calidad."
                         />
                     </div>
-
                 </div>
 
-                <div className="xl:w-[45%] flex justify-end">
-                    <img className="h-[800px] left-0" src="/dreNB.png" alt="" />
+                {/* IMAGEN */}
+                <div className="h-[auto] flex
+                                lg:w-[60%] 
+                                xl:w-[45%] xl:justify-end xl:items-end">
+
+                    <img className="h-[100%] w-full" src="/dreNB.png" alt="" />
                 </div>
 
             </div>
-
         </section>
     );
 }
