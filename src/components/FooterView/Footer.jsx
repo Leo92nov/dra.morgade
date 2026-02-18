@@ -57,7 +57,7 @@ export default function Footer() {
                                 <img className="w-8 h-8 transition-transform duration-300 hover:scale-110" src="/NavBar/fbF.svg" alt="" /> /dra.morgade
                             </a>
                         </li>
-                        <li className="w-[65%] h-10 relative inline-block text-gray-700 
+                        <li className="w-[70%] h-10 relative inline-block text-gray-700 
                             hover:text-[#004225] 
                             transition-colors duration-300
                             before:content-['']

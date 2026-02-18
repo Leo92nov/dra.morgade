@@ -15,7 +15,7 @@ export default function NavBarButtonServicios({ to, nombre }) {
                 to={to}
                 className="
           relative inline-block pb-1 pt-4
-          text-white text-xl
+          text-white text-2xl
           hover:scale-105 transition-transform duration-500
           hover:text-[#004225]
           after:content-[''] after:absolute after:left-0 after:top-0

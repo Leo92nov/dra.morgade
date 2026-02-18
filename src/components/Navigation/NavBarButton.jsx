@@ -9,7 +9,7 @@ export default function NavBarButton({to, nombre}){
 <button
   className="
     relative pb-1 pt-4
-    text-white text-xl bold
+    text-white text-2xl
     hover:scale-105
     transition-transform duration-500
     hover:text-[#004225]
