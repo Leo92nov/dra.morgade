@@ -7,12 +7,12 @@ export default function ServiciosView() {
 
     return <>
 
-        <h1 className="mt-40 text-3xl text-center">Nuestros Servicios</h1>
+        <h1 className="mt-10 text-3xl text-center">Nuestros Servicios</h1>
         <div className="my-8">
             <CardServiciosHorizontal1 img="/ArticleServ/facial.jpg" titulo="Estética Facial" parrafo="Los tratamientos estéticos faciales son procedimientos diseñados para mejorar la calidad de la piel, mantener su salud y realzar la belleza natural del rostro sin alterar la expresión. Su objetivo principal es prevenir y tratar signos del envejecimiento, manchas, flacidez, líneas de expresión, acné y deshidratación, logrando una apariencia más fresca, luminosa y uniforme.
 
 Estos t del tiempo." ></CardServiciosHorizontal1>
-            <CardServiciosHorizontal2 img="/ArticleServ/corporal.webp" titulo="Estética Corporal" parrafo="Los tratamientos estéticos faciales son procedimientos diseñados para mejorar la calidad de la piel, mantener su salud y realzar la belleza natural del rostro sin alterar la expresión. Su objetivo principal es prevenir y tratar signos del envejecimiento, manchas, flacidez, líneas de expresión, acné y deshidratación, logrando una apariencia más fresca, luminosa y uniforme.
+            <CardServiciosHorizontal2 img="/ArticleServ/corporal.png" titulo="Estética Corporal" parrafo="Los tratamientos estéticos faciales son procedimientos diseñados para mejorar la calidad de la piel, mantener su salud y realzar la belleza natural del rostro sin alterar la expresión. Su objetivo principal es prevenir y tratar signos del envejecimiento, manchas, flacidez, líneas de expresión, acné y deshidratación, logrando una apariencia más fresca, luminosa y uniforme.
 
 iempo." ></CardServiciosHorizontal2>
             <CardServiciosHorizontal1 img="/ArticleServ/Masculina.jpg" titulo="Estética Masculina" parrafo="Los tratamientos estéticos faciales son procedimientos diseñados para mejorar la calidad de la piel, mantener su salud y realzar la belleza natural del rostro sin alterar la expresión. Su objetivo principal es prevenir y tratar signos del envejecimiento, manchas, flacidez, líneas de expresión, acné y deshidratación, logrando una apariencia más fresca, luminosa y uniforme.

@@ -1,4 +1,6 @@
-export default function CardServiciosHorizontal2({ img, titulo, parrafo }) {
+import { Link } from "react-router-dom";
+
+export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
   return (
     <section className="w-full my-22 px-8">
       <article className="w-full">
@@ -10,6 +12,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo }) {
               <h2 className="w-full text-5xl">{titulo}</h2>
             </div>
             <p className="w-full text-2xl">{parrafo}</p>
+            <div className="h-10 flex justify-center items-center w-[20%] text-white mt-4 p-4 bg-[#004225] rounded-xl hover:scale-105 transition-transform duration-400 cursor-pointer"><Link to={to}></Link>Consultar</div>
           </div>
 
           {/* IMAGEN */}
