@@ -41,7 +41,8 @@ export default function Dra() {
             {/* Fondo */}
             <div
                 className={[
-                    "absolute inset-0 w-[160%] bg-[#004225] will-change-transform",
+                    "absolute inset-0 w-[160%] will-change-transform",
+                    "bg-[url('/fondo.jpg')] bg-cover bg-center bg-no-repeat",
                     "transition-transform duration-[1100ms] ease-out",
                     active ? "translate-x-0" : "translate-x-[100%]",
                 ].join(" ")}

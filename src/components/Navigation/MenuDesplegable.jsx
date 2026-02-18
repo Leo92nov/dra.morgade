@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom";
 import CardMenuDesplegable from "./CardMenuDesplegable";
 
 export default function MenuDesplegable() {
     return (
-        <section className="w-[100%] bg-gray-100 h-80 p-2 mt-8 flex justify-around">
+        <section className="w-[100%] bg-gray-100 h-80 p-2 mt-12 flex justify-around px-auto">
 
             <CardMenuDesplegable img="/NavBar/facial.png" titulo="Estética Facial" to="/Servicios/Facial"> </CardMenuDesplegable>
             <CardMenuDesplegable img="/NavBar/corporal.jpg" titulo="Estética Corporal" to="/Servicios/Corporal"> </CardMenuDesplegable>

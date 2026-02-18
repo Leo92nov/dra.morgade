@@ -20,8 +20,8 @@ export default function Footer() {
                 </section>
 
                 <section className="pl-8 2xl:w-[23%] lg:w-[45%]">
-                    <h2 className="text-white pt-2 text-2xl mb-8">Nuestras Redes:</h2>
-                    <ul className="flex flex-col gap-4">
+                    <h2 className="text-white pt-4 text-2xl mb-8">Nuestras Redes:</h2>
+                    <ul className="flex flex-col gap-4 justify-center">
                         <li className="w-[45%] h-10 relative inline-block text-gray-700 hover:text-[#004225] 
                             transition-colors duration-300
                             before:content-['']
@@ -98,14 +98,14 @@ export default function Footer() {
                 </section>
 
                 <section className="2xl:w-[23%] lg:w-[45%]">
-                    <h2 className="text-white text-2xl pt-2">Horarios de atención:</h2>
-                    <h2 className="text-white pt-2">Lunes: Cerrado</h2>
-                    <h2 className="text-white pt-2">Martes: 10am. - 7 pm.</h2>
-                    <h2 className="text-white pt-2">Miércoles: 10am. - 7pm.</h2>
-                    <h2 className="text-white pt-2">Jueves: 10am. - 7pm.</h2>
-                    <h2 className="text-white pt-2">Viernes: 10 am. - 7pm.</h2>
-                    <h2 className="text-white pt-2">Sábados: 10 am. - 2pm.</h2>
-                    <h2 className="text-white pt-2">Domingo: Cerrado</h2>
+                    <h2 className="text-white text-2xl pt-4">Horarios de atención:</h2>
+                    <h2 className="text-white pt-4">Lunes: Cerrado</h2>
+                    <h2 className="text-white pt-4">Martes: 10am. - 7 pm.</h2>
+                    <h2 className="text-white pt-4">Miércoles: 10am. - 7pm.</h2>
+                    <h2 className="text-white pt-4">Jueves: 10am. - 7pm.</h2>
+                    <h2 className="text-white pt-4">Viernes: 10 am. - 7pm.</h2>
+                    <h2 className="text-white pt-4">Sábados: 10 am. - 2pm.</h2>
+                    <h2 className="text-white pt-4">Domingo: Cerrado</h2>
                 </section>
 
             </div>

@@ -1,16 +1,27 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-export default function CardMenuDesplegable({to, img, titulo}) {
+export default function CardMenuDesplegable({ to, img, titulo }) {
+  return (
+    <div className="w-[20%] flex flex-col items-center justify-center">
+      <Link to={to} className="group flex flex-col items-center gap-3 w-full">
 
-
-    return <>
-
-        <div className=" w-[20%] bg-pik-200 flex flex-col justify-center hover:scale-105 transition-transform duration-300 cursor-pointer">
-            <Link to={to}>
-            <img className="h-[80%] rounded-xl" src={img}></img>
-            <h2 className="text-xl text-center">{titulo}</h2></Link>
+        <div className="w-full h-48 overflow-hidden rounded-xl">
+          <img
+            className="
+              w-full h-full object-cover
+              transition-transform duration-500 ease-out
+              group-hover:scale-110
+            "
+            src={img}
+            alt={titulo}
+          />
         </div>
 
-    </>
+        <h2 className="text-xl text-center transition-colors duration-300 group-hover:text-[#004225]">
+          {titulo}
+        </h2>
 
+      </Link>
+    </div>
+  );
 }

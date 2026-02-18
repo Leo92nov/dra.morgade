@@ -1,7 +1,7 @@
 export default function CarruselMarcas() {
 
     return <>
-    <h2 className="text-center mt-8 text-2xl">Nuestras Marcas</h2>
+    <h2 className="text-center mt-8 text-2xl">Utilizamos solo marcas líderes en su campo</h2>
       <section className="overflow-hidden my-8">
   <div className="flex w-max animate-scroll">
     {/* primera tanda */}
