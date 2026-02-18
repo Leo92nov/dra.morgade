@@ -8,6 +8,11 @@ import IconWsp from './components/IconWsp'
 import ContactView from './components/ContactoView/ContactView'
 import ServiciosView from './components/ServiciosView/ServiciosView'
 import NosotrasView from './components/NosotrasView/NosotrasView'
+import Facial from './components/ServiciosView/Facial'
+import Corporal from './components/ServiciosView/Corporal'
+import Masculinos from './components/ServiciosView/Masculinos'
+import Nutricion from './components/ServiciosView/Nutricion'
+
 
 
 function App() {
@@ -21,6 +26,10 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />}></Route>
           <Route exact path='/Servicios' element={<ServiciosView/>}></Route>
+          <Route exact path='/Servicios/Facial' element={<Facial/>}></Route>
+          <Route exact path='/Servicios/Corporal' element={<Corporal/>}></Route>
+          <Route exact path='/Servicios/Masculinos' element={<Masculinos/>}></Route>
+          <Route exact path='/Servicios/Nutricion' element={<Nutricion/>}></Route>
           <Route exact path='/Contacto' element={<ContactView />}></Route>
           <Route exact path='/Nosotras' element={<NosotrasView/>}></Route>
 
