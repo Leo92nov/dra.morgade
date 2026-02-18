@@ -36,7 +36,7 @@ export default function Dra() {
     return (
         <section
             ref={sectionRef}
-            className="relative 2xl:w-[70%] mx-auto my-8 overflow-hidden"
+            className="relative 2xl:w-[80%] mx-auto my-8 overflow-hidden"
         >
             {/* Fondo */}
             <div

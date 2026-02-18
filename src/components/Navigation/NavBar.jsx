@@ -1,31 +1,53 @@
+import { useEffect, useState } from "react";
 import NavBarButton from "./NavBarButton";
+import NavBarButtonServicios from "./NavBarButtonServicios";
 
 export default function NavBar() {
+  const [show, setShow] = useState(true);
+  const [lastScroll, setLastScroll] = useState(0);
 
-    return <>
+  useEffect(() => {
+  const handleScroll = () => {
+    const currentScroll = window.scrollY;
 
-        <header className="h-auto">
+    if (currentScroll > lastScroll && currentScroll > 80) {
+      // scroll hacia abajo
+      setShow(false);
+    } else {
+      // scroll hacia arriba
+      setShow(true);
+    }
 
-        
-            <nav className="w-[60%] h-auto mx-auto ">
+    setLastScroll(currentScroll);
+  };
 
-                <section className="w-100% flex justify-between items-center">
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, [lastScroll]);
 
-                    <div className="w-[25%]">
-                        <img className="h-auto w-full pt-1" src="/NavBar/dra3.png" alt="" />
-                    </div>
+  return (
+    <header
+      className={`
+        fixed top-0 left-0 w-full z-50
+        transition-transform duration-300
+        ${show ? "translate-y-0" : "-translate-y-full"}
+      `}
+    >
+      <nav className="w-full mx-auto">
+        <section className="w-full flex justify-between items-center">
+          <div className="w-full flex 2xl:gap-16 md:gap-8 justify-center items-center">
+            <NavBarButton nombre="Inicio" to="/" />
+            <NavBarButtonServicios nombre="Servicios" to="/Servicios" />
 
-                    <div className="w-1/2 flex gap-8 justify-end items-center">
-                        <NavBarButton nombre="Inicio" to="/"></NavBarButton>
-                        <NavBarButton nombre="Servicios" to="/Servicios"></NavBarButton>
-                        <NavBarButton nombre="Nosotras" to="/Nosotras"></NavBarButton>
-                        <NavBarButton nombre="Contacto" to="/Contacto"></NavBarButton>
+            <div className="w-[25%]">
+              <img className="h-auto w-full pt-1" src="/NavBar/dra3.png" alt="" />
+            </div>
 
-                    </div>
-
-                </section>
-            </nav>
-        </header>
-
-    </>
+            <NavBarButton nombre="Nosotras" to="/Nosotras" />
+            <NavBarButton nombre="Contacto" to="/Contacto" />
+          </div>
+        </section>
+      </nav>
+    </header>
+  );
 }
