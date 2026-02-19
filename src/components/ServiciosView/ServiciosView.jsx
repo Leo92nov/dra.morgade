@@ -7,7 +7,7 @@ export default function ServiciosView() {
 
     return <>
 
-        <h1 className="mt-10 text-3xl text-center">Nuestros Servicios</h1>
+        <h1 className="mt-14 text-3xl text-center">Nuestros Servicios</h1>
         <div className="my-8">
             <CardServiciosHorizontal1 img="/ArticleServ/facial.jpg" titulo="Estética Facial" parrafo="Los tratamientos de estética facial están orientados a mejorar la calidad de la piel y resaltar la belleza natural del rostro de forma segura y personalizada. Permiten prevenir y tratar signos de envejecimiento, manchas, líneas de expresión, flacidez y deshidratación, favoreciendo una piel más luminosa, uniforme y saludable, con resultados progresivos que respetan la expresión natural y acompañan el paso del tiempo." ></CardServiciosHorizontal1>
             <CardServiciosHorizontal2 img="/ArticleServ/corporal.png" titulo="Estética Corporal" parrafo="Los tratamientos de estética corporal están diseñados para mejorar la apariencia y la calidad de la piel, ayudando a reducir adiposidad localizada, flacidez, celulitis y retención de líquidos. A través de técnicas personalizadas y tecnología específica, permiten modelar la silueta de manera progresiva y natural, favoreciendo una piel más firme, uniforme y saludable, respetando las características corporales de cada persona." ></CardServiciosHorizontal2>
