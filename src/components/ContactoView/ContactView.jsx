@@ -116,7 +116,7 @@ export default function ContactView() {
         </div>
       </section>
 
-      <FormularioContactoComponent></FormularioContactoComponent>
+     {/*  <FormularioContactoComponent></FormularioContactoComponent> */}
 
     </main>
     

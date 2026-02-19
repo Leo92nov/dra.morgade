@@ -1,5 +1,6 @@
 import BeforeAfter from "./BeforeAfter";
 import CardServiciosHome from "./CardServiciosHome";
+import CarruselAntesDespues from "./CarruselBeforeAfter";
 import CarruselMarcas from "./CarruselMarcas";
 import CarruselTop from "./CarruselTop";
 import Dra from "./Dra";
@@ -85,15 +86,20 @@ export default function Home() {
         Algunos de nuestros resultados
       </h2>
 
-      <section className="w-full flex justify-center">
+      {/* <section className="w-full flex justify-center">
         <section className="flex flex-wrap gap-8 w-[80%]">
           <BeforeAfter antes="/antes-despues/antes-frente.jpeg" despues="/antes-despues/despues-frente.jpeg" />
           <BeforeAfter antes="/antes-despues/culo-antes.jpeg" despues="/antes-despues/culo-despues.jpeg" />
           <BeforeAfter antes="/antes-despues/labios-antes.png" despues="/antes-despues/labios-despues.png" />
           <BeforeAfter antes="/antes-despues/gallo-antes.png" despues="/antes-despues/gallo-despues.png" />
           <BeforeAfter antes="/antes-despues/alopecia-antes.png" despues="/antes-despues/alopecia-despues.png" />
+          <BeforeAfter antes="/antes-despues/b-antes.png" despues="/antes-despues/b-despues.png" />
+          <BeforeAfter antes="/antes-despues/g-antes.jpeg" despues="/antes-despues/g-despues.jpeg" />
+          <BeforeAfter antes="/antes-despues/l-antes.jpeg" despues="/antes-despues/l-despues.jpeg" />
+          <BeforeAfter antes="/antes-despues/f-antes.jpeg" despues="/antes-despues/f-despues.png" />
         </section>
-      </section>
+      </section> */}
+      <CarruselAntesDespues></CarruselAntesDespues>
 
       <section className="mt-20">
         <h2 className="text-center text-3xl mb-10">Nuestros pacientes</h2>
