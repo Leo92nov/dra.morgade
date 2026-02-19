@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+
+  --breakpoint-3xl: 120rem;
+}
 
 @keyframes line-draw-erase {
   0% { transform: scaleX(0); }
