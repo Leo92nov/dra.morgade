@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
   return (
     <section className="w-full px-8">
-      <article className="w-full">
+      <article className="w-full bg-red-100">
         <div className="w-full flex items-center gap-8">
           <div className="w-3/4">
             <img
