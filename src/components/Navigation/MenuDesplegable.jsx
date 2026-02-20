@@ -10,7 +10,7 @@ export default function MenuDesplegable() {
         p-4
         flex justify-around items-center
         
-        bg-white/30
+        bg-white/90
         backdrop-blur-lg
         border border-white/30
         shadow-lg

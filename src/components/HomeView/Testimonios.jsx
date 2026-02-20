@@ -25,13 +25,13 @@ function TestimonioCard({ tratamiento, paciente, devolucion }) {
         </span>
 
         <div className="relative z-10">
-          <h2 className="text-[#004225] font-semibold text-lg mb-1">
+          <h2 className="text-[#004225] font-semibold text-lg ">
             {tratamiento}
           </h2>
 
           <h3 className="mb-2 text-yellow-400 text-sm">★★★★★</h3>
 
-          <h3 className="text-sm text-gray-500 mb-4">
+          <h3 className="text-sm text-gray-500">
             {paciente}
           </h3>
 
@@ -103,7 +103,7 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
 
   return (
     <section
-      className="w-full"
+      className="w-full mb-12"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
     >
@@ -151,7 +151,7 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
 
         {/* Dots (por “páginas”) */}
         {total > perView && (
-          <div className="flex justify-center gap-2 mt-6">
+          <div className="flex justify-center gap-2">
             {Array.from({ length: maxIndex + 1 }).map((_, i) => (
               <button
                 key={i}

@@ -33,7 +33,7 @@ export default function NavBar() {
   return (
     <>
       {/* Spacer para que el contenido no quede debajo del fixed */}
-      <div className="h-[90px]" />
+      <div className="h-[90px] bg-gray-500" />
 
       <header
         className={`
@@ -59,7 +59,7 @@ export default function NavBar() {
               />
 
               <div className="w-[25%]">
-                <img className="h-auto w-full pt-1" src="/NavBar/dra3.png" alt="" />
+                <img className="h-[100px] w-full pt-1" src="/Logos/vm(3)4.png" alt="" />
               </div>
 
               <NavBarButton nombre="Nosotras" to="/Nosotras" darkText={darkText} />

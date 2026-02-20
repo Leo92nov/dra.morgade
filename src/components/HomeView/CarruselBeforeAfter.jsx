@@ -44,7 +44,7 @@ export default function CarruselAntesDespues() {
   }, [totalPages]);
 
   return (
-    <section className="w-[full] flex justify-center mt-16">
+    <section className="w-[full] flex justify-center mt-8 py-8">
       <div
         className="w-[90%] overflow-hidden"
         onMouseEnter={stop}

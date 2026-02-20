@@ -63,8 +63,8 @@ export default function ContactView() {
                                         Horarios de atención
                                     </p>
                                     <ul className="mt-2 space-y-1">
-                                        <li>Martes a Viernes: 10:00 a 19:00</li>
-                                        <li>Sábados: 10:00 a 14:00</li>
+                                        <li>Martes a Viernes: 10:00 h a 19:00 h</li>
+                                        <li>Sábados: 10:00 h a 14:00 h</li>
                                         <li>Domingos y Lunes: Cerrado</li>
                                     </ul>
                                 </div>
@@ -97,14 +97,14 @@ export default function ContactView() {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="
-    h-12 px-6
-    flex items-center justify-center
-    border border-[#004225]
-    text-[#004225]
-    rounded-xl
-    hover:bg-[#004225] hover:text-white
-    transition-colors duration-300
-  "
+                                           h-12 px-6
+                                           flex items-center justify-center
+                                           border border-[#004225]
+                                           text-[#004225]
+                                           rounded-xl
+                                           hover:bg-[#004225] hover:text-white
+                                           transition-colors duration-300
+                                       "
                             >
                                 Cómo llegar
                             </a>

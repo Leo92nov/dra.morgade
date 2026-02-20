@@ -73,7 +73,7 @@ export default function Home() {
         <Dra />
       </section>
 
-      <h2 className="text-center text-4xl my-8">Nuestros tratamientos</h2>
+      <h2 className="text-center text-4xl my-8 bg-gray-200">Nuestros tratamientos</h2>
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
         <CardServiciosHome img="/HomeCards/facial.webp" servicio="Facial" />
         <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Corporal" />
@@ -82,32 +82,20 @@ export default function Home() {
         <CardServiciosHome img="/HomeCards/nutricion.webp" servicio="Nutricion" />
       </section>
 
-      <h2 className="text-center text-2xl my-12">
+      <CarruselMarcas />
+
+      <h2 className="text-center text-4xl mt-18 bg-gray-200">
         Algunos de nuestros resultados
       </h2>
 
-      {/* <section className="w-full flex justify-center">
-        <section className="flex flex-wrap gap-8 w-[80%]">
-          <BeforeAfter antes="/antes-despues/antes-frente.jpeg" despues="/antes-despues/despues-frente.jpeg" />
-          <BeforeAfter antes="/antes-despues/culo-antes.jpeg" despues="/antes-despues/culo-despues.jpeg" />
-          <BeforeAfter antes="/antes-despues/labios-antes.png" despues="/antes-despues/labios-despues.png" />
-          <BeforeAfter antes="/antes-despues/gallo-antes.png" despues="/antes-despues/gallo-despues.png" />
-          <BeforeAfter antes="/antes-despues/alopecia-antes.png" despues="/antes-despues/alopecia-despues.png" />
-          <BeforeAfter antes="/antes-despues/b-antes.png" despues="/antes-despues/b-despues.png" />
-          <BeforeAfter antes="/antes-despues/g-antes.jpeg" despues="/antes-despues/g-despues.jpeg" />
-          <BeforeAfter antes="/antes-despues/l-antes.jpeg" despues="/antes-despues/l-despues.jpeg" />
-          <BeforeAfter antes="/antes-despues/f-antes.jpeg" despues="/antes-despues/f-despues.png" />
-        </section>
-      </section> */}
       <CarruselAntesDespues></CarruselAntesDespues>
 
       <section className="mt-20">
-        <h2 className="text-center text-3xl mb-10">Nuestros pacientes</h2>
+        <h2 className="text-center text-4xl mb-10 bg-gray-200">Nuestros pacientes</h2>
 
         <Testimonios items={testimoniosData} />
       </section>
 
-      <CarruselMarcas />
     </>
   );
 }
