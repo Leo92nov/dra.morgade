@@ -42,6 +42,9 @@ export default function ContactView() {
                                     <p className="mt-1">
                                         Mendoza 1667, Quo Container Center
                                     </p>
+                                    <p className="mt-1">
+                                       Piso 1 Local 17
+                                    </p>
                                 </div>
 
                                 <div>

@@ -137,7 +137,7 @@ ${index === current ? "opacity-100" : "opacity-0"}`}
                ease-out
                group-hover:translate-y-0"
                     >
-                        Agendar consulta
+                    <a href="https://wa.me/5491168638712">Agendar Consulta</a>
                     </span>
                 </button>
 
