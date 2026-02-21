@@ -12,7 +12,6 @@ import Facial from './components/ServiciosView/Facial'
 import Corporal from './components/ServiciosView/Corporal'
 import Masculinos from './components/ServiciosView/Masculinos'
 import Nutricion from './components/ServiciosView/Nutricion'
-import CardMenuDesplegable from './components/Navigation/CardMenuDesplegable'
 
 
 
@@ -21,7 +20,6 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <CardMenuDesplegable></CardMenuDesplegable>
         <NavBar></NavBar>
         <IconWsp></IconWsp>
         <Routes>
