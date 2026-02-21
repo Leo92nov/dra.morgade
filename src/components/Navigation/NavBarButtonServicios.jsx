@@ -9,7 +9,7 @@ export default function NavBarButtonServicios({ to, nombre, darkText }) {
     <div
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
-      className="relative inline-block"
+      className="relative inline-block bg-red-100"
     >
       <Link
         to={to}
@@ -30,9 +30,9 @@ export default function NavBarButtonServicios({ to, nombre, darkText }) {
       {/* Dropdown full-width */}
       <div
         className={`
-          fixed left-0 right-0 top-[90px]
-          z-50
-          transition-all duration-200 origin-top
+          fixed top-[75px]
+          z-50 
+          transition-all duration-400 origin-top
           ${open ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2 pointer-events-none"}
         `}
       >
