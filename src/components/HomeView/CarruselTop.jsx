@@ -78,7 +78,7 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <section className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[900px] overflow-hidden">
+        <figure className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[900px] overflow-hidden">
             {/* Slides */}
             {slides.map((slide, index) => (
                 <img
@@ -86,8 +86,8 @@ export default function CarruselTop() {
                     src={slide.img}
                     alt=""
                     className={`absolute inset-0 w-full h-full object-cover 2xl:object-top
-transition-opacity duration-[4000ms]
-${index === current ? "opacity-100" : "opacity-0"}`}
+                               transition-opacity duration-[4000ms]
+                               ${index === current ? "opacity-100" : "opacity-0"}`}
 
                 />
             ))}
@@ -143,6 +143,6 @@ ${index === current ? "opacity-100" : "opacity-0"}`}
 
 
             </div>
-        </section>
+        </figure>
     );
 }

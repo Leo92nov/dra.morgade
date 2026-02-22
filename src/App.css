@@ -3,6 +3,7 @@
 @theme {
 
   --breakpoint-3xl: 120rem;
+  --font-garamond: "Cormorant Garamond", serif;
 }
 
 @keyframes line-draw-erase {

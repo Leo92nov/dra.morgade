@@ -20,12 +20,12 @@ export default function Footer() {
                     <iframe className="w-115 h-60 mt-4" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d489.48112148252636!2d-58.74722817116939!3d-34.380412567047706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc9fc3f5b326f9%3A0x96e9e79868b7a633!2sCl%C3%ADnica%20de%20Nutrici%C3%B3n%20y%20Est%C3%A9tica%20Dra.%20Ver%C3%B3nica%20Morgade!5e0!3m2!1ses!2sar!4v1770841332106!5m2!1ses!2sar" loading="lazy"></iframe>
                 </section>
 
-                <section className="2xl:pl-36 2xl:w-[33%] xl:mt-12 lg:w-[50%] mt-2">
+                <section className="2xl:pl-36 2xl:w-[33%] 2xl:mt-4 xl:mt-12 lg:w-[50%] mt-2">
                     <h2 className="text-white pt-4 text-2xl xl:text-center mb-8">Nuestras Redes:</h2>
                     <ul className="gap-4 h-auto xl:w-[50%]
                                    2xl:flex 2xl:flex-col 2xl:items-start 2xl:m-0 2xl:w-[100%]
                                    xl:flex xl:flex-col xl:mx-[30%]">
-                        <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700 hover:text-[#004225] 
+                        <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700 hover:text-[#7B5D69] 
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -33,7 +33,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#004225]
+                            before:bg-[#7B5D69]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -51,7 +51,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#004225]
+                            before:bg-[#7B5D69]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -61,7 +61,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700 
-                            hover:text-[#004225] 
+                            hover:text-[#7B5D69] 
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -69,7 +69,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#004225]
+                            before:bg-[#7B5D69]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -79,7 +79,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700
-                            hover:text-[#004225] 
+                            hover:text-[#7B5D69] 
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -87,13 +87,13 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#004225]
+                            before:bg-[#7B5D69]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
                             hover:before:w-full">
                             <a className="w-full h-full text-white flex items-center gap-8 text-xl italic  transition-transform duration-300 hover:scale-101" href="https://www.facebook.com/dra.morgade">
-                                <img className="w-10 h-10 transition-transform duration-300 hover:scale-110" src="/NavBar/gmF.svg" alt="" />
+                                <img className="w-8 h-8 transition-transform duration-300 hover:scale-110" src="/Svgs/ytb.svg" alt="" />
                             </a>
                         </li>
 

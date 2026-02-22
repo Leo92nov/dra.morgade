@@ -32,7 +32,7 @@ export default function CarruselMarcas() {
 
   return (
     <>
-      <h2 className="text-center mt-8 2xl:mt-20 text-4xl bg-gray-200">
+      <h2 className="text-center mt-8 2xl:mt-20 text-4xl bg-gray-200 font-garamond">
         Utilizamos solo marcas líderes en su campo
       </h2>
 

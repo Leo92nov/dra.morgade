@@ -73,25 +73,24 @@ export default function Home() {
         <Dra />
       </section>
 
-      <h2 className="text-center text-4xl my-8 bg-gray-200">Nuestros tratamientos</h2>
+      <h2 className="text-center font-garamond text-4xl my-8 bg-gray-200">Nuestros tratamientos</h2>
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
-        <CardServiciosHome img="/HomeCards/facial.webp" servicio="Facial" />
-        <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Corporal" />
-        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Capilar" />
-        <CardServiciosHome img="/HomeCards/suero.webp" servicio="Sueros" />
-        <CardServiciosHome img="/HomeCards/nutricion.webp" servicio="Nutricion" />
+        <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" />
+        <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" />
+        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Tratamientos Capilares" />
+        <CardServiciosHome img="/HomeCards/suero.webp" servicio="Medicina Funcional"/>
       </section>
 
       <CarruselMarcas />
 
-      <h2 className="text-center text-4xl mt-18 bg-gray-200">
+      <h2 className="text-center text-4xl font-garamond mt-18 bg-gray-200">
         Algunos de nuestros resultados
       </h2>
 
       <CarruselAntesDespues></CarruselAntesDespues>
 
       <section className="mt-20">
-        <h2 className="text-center text-4xl mb-10 bg-gray-200">Nuestros pacientes</h2>
+        <h2 className="text-center text-4xl mb-10 bg-gray-200 font-garamond">Nuestros pacientes</h2>
 
         <Testimonios items={testimoniosData} />
       </section>
