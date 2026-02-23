@@ -191,7 +191,7 @@ export const servicios = [
     },
     {id: 27, 
         servicio: 'Láser',
-        subservicio: 'HIFU 12D',
+        subservicio: 'HIFU 12 D',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''

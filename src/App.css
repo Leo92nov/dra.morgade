@@ -4,6 +4,8 @@
 
   --breakpoint-3xl: 120rem;
   --font-garamond: "Cormorant Garamond", serif;
+   --font-montserrat: "Montserrat", sans-serif;
+    --font-inter: "Inter", sans-serif;
 }
 
 @keyframes line-draw-erase {

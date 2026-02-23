@@ -1,4 +1,3 @@
-import BeforeAfter from "./BeforeAfter";
 import CardServiciosHome from "./CardServiciosHome";
 import CarruselAntesDespues from "./CarruselBeforeAfter";
 import CarruselMarcas from "./CarruselMarcas";
@@ -69,11 +68,12 @@ export default function Home() {
     <>
       <CarruselTop />
 
+    <h1 className="text-center text-3xl font-garamond mt-16 mb-[-40px] bg-pink-100">Dra. Verónica Morgade – Medicina Estética y Antiaging - Ingeniero Maschwitz</h1>
       <section className="my-16">
         <Dra />
       </section>
 
-      <h2 className="text-center font-garamond text-4xl my-8 bg-gray-200">Nuestros tratamientos</h2>
+      <h2 className="text-center font-garamond text-3xl my-8 bg-pink-100">Nuestros tratamientos</h2>
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
         <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" />
         <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" />
@@ -83,14 +83,14 @@ export default function Home() {
 
       <CarruselMarcas />
 
-      <h2 className="text-center text-4xl font-garamond mt-18 bg-gray-200">
+      <h2 className="text-center text-3xl font-garamond mt-18 bg-pink-100">
         Algunos de nuestros resultados
       </h2>
 
       <CarruselAntesDespues></CarruselAntesDespues>
 
       <section className="mt-20">
-        <h2 className="text-center text-4xl mb-10 bg-gray-200 font-garamond">Nuestros pacientes</h2>
+        <h2 className="text-center text-3xl mb-10 bg-pink-100 font-garamond">Testimonios de nuestros pacientes</h2>
 
         <Testimonios items={testimoniosData} />
       </section>

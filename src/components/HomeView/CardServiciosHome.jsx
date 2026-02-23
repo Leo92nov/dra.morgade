@@ -21,18 +21,18 @@ export default function CardServiciosHome({ img, servicio }) {
                     />
                 </div>
 
-                <h2 className="text-center mt-2 text-xl">{servicio}</h2>
+                <h2 className="text-center mt-2 text-xl font-garamond">{servicio}</h2>
 
-                <div className="w-[50%] border border-[#004225] mx-auto my-4"></div>
+                <div className="w-[50%] border border-[#D6CBCB] mx-auto my-4"></div>
 
-                <p>Lorem ipsum dolor sit amet conse ctetur adi pisi cing elit.</p>
+                <p className="font-montserrat text-sm">Lorem ipsum dolor sit amet conse ctetur adi pisi cing elit.</p>
 
                 <div className="flex justify-center">
                     <button
                         className="
                             cursor-pointer mt-4 text-center
-                            border border-[#004225]
-                            hover:text-white hover:bg-[#004225]
+                            border border-[#D6CBCB] font-garamond text-lg
+                            hover:text-white hover:bg-[#7B5D69]
                             rounded-2xl p-1
                             hover:scale-105
                             transition-transform duration-300

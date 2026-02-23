@@ -78,7 +78,11 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <figure className="relative w-full h-[400px] md:h-[500px] xl:h-[800px] 2xl:h-[900px] overflow-hidden">
+        <figure className="relative w-full h-[400px] 
+        md:h-[500px] 
+        xl:h-[800px] 
+        2xl:h-[800px] overflow-hidden
+        3xl:h-[850px]">
             {/* Slides */}
             {slides.map((slide, index) => (
                 <img
@@ -106,25 +110,25 @@ export default function CarruselTop() {
             >
                 {/* Reservo altura para que el botón NO se mueva */}
                 <div className="min-h-[56px]">
-                    <h1 className="xl:text-5xl lg:text-3xl text-2xl xl:mb-4 font-light italic drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h2 className="xl:text-5xl font-garamond lg:text-3xl text-2xl xl:mb-4 font-light drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedTitle}
-                    </h1>
+                    </h2>
                 </div>
 
                 <div className="min-h-[36px] xl:mt-8">
-                    <h2 className="xl:text-2xl text-lg drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h2 className="xl:text-2xl text-lg font-garamond drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedSubtitle}
                     </h2>
                 </div>
                 <button
-                    className="relative cursor-pointer overflow-hidden xl:w-50 bg-[#004225] xl:text-xl xl:mt-8 px-8 rounded-full w-40 text-white group h-[52px]
+                    className="relative cursor-pointer text-center overflow-hidden bg-[#7B5D69] xl:text-xl xl:mt-8 px-8 rounded-full w-40 text-white group h-[40px]
              shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
                 >
                     {/* Texto que sale (más rápido) */}
                     <span
                         className="absolute inset-0 flex items-center justify-center
                transition-transform duration-500 lg:mr-2
-               ease-in
+               ease-in font-garamond
                group-hover:-translate-y-full"
                     >
                         Agendar consulta
@@ -134,7 +138,7 @@ export default function CarruselTop() {
                     <span
                         className="absolute inset-0 flex items-center justify-center
                translate-y-full transition-transform duration-600
-               ease-out
+               ease-out font-garamond
                group-hover:translate-y-0"
                     >
                     <a href="https://wa.me/5491168638712">Agendar Consulta</a>

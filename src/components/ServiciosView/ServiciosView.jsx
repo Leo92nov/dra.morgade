@@ -7,7 +7,7 @@ export default function ServiciosView() {
 
     return <>
 
-        <h1 className="mt-20 text-6xl text-center lg:mb-16 3xl:mb-[-10px]">Nuestros Servicios</h1>
+        <h1 className="mt-20 text-3xl font-garamond text-center lg:mb-16 3xl:mb-[-4px] bg-gray-100">Nuestros Servicios</h1>
         <div className="mb-20 h-auto
                         2xl:mb-20">
             <CardServiciosHorizontal1 img="/ArticleServ/facial.jpg" titulo="Estética Facial" parrafo="Los tratamientos de estética facial están orientados a mejorar la calidad de la piel y resaltar la belleza natural del rostro de forma segura y personalizada. Permiten prevenir y tratar signos de envejecimiento, manchas, líneas de expresión, flacidez y deshidratación, favoreciendo una piel más luminosa, uniforme y saludable, con resultados progresivos que respetan la expresión natural y acompañan el paso del tiempo." ></CardServiciosHorizontal1>

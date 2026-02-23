@@ -3,10 +3,10 @@ export default function Listones({ img, parrafo, titulo }) {
         <section>
             <div className="flex flex-col items-center justify-center text-center xl:flex">
                 <img className="h-25 w-20" src={img} alt="" />
-                <h2 className=" text-black text-xl w-[250px] mt-2 font-bold ">
+                <h2 className=" text-black text-xl w-[250px] mt-2 font-bold font-garamond ">
                     {titulo}
                 </h2>
-                <p className=" text-black text-md w-[300px] text-center mt-2 font-bold">
+                <p className=" text-black text-md w-[300px] text-center mt-2 font-montserrat">
                     {parrafo}
                 </p>
             </div>
