@@ -52,20 +52,19 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
                           sm:text-md 
                           xl:text-lg">{parrafo}</p>
 
-            <section className="flex justify-between">
+            <section className="flex justify-between 2xl:gap-16">
 
-              <Link
-                to={to}
-                className="
+              <button className="
                 mt-6 inline-flex items-center justify-center
                 h-12 px-6
                 text-white bg-[#7B5D69] rounded-xl
                 hover:scale-105 transition-transform duration-300
-                w-[12rem]
-              "
-              >
-                Consultar
-              </Link>
+                w-[12rem]">
+
+                <a href={`https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!%20Me%20gustaría%20agendar%20una%20consulta%20para%20${titulo}`}>
+                  Consultar
+                </a>
+              </button>
 
               <button className="
                           mt-6 inline-flex items-center justify-center

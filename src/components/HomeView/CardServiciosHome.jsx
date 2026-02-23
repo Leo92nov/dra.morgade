@@ -1,7 +1,11 @@
 export default function CardServiciosHome({ img, servicio }) {
 
     function handleClick() {
-        window.location.href = '/Servicios'
+        window.location.href = `/Servicios/${servicio.trim()
+            .split(" ")
+            .pop()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")}`
     }
 
     return (

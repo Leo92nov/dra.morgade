@@ -77,7 +77,8 @@ export default function Home() {
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
         <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" />
         <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" />
-        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Tratamientos Capilares" />
+        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Tratamiento Capilar" />
+        <CardServiciosHome img="/HomeCards/laser.jpg" servicio="Tratamientos con Láser"/>
         <CardServiciosHome img="/HomeCards/suero.webp" servicio="Medicina Funcional"/>
       </section>
 
