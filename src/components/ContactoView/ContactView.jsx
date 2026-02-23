@@ -8,11 +8,11 @@ export default function ContactView() {
             <div className="h-16" />
 
             <header className="text-center px-4">
-                <h1 className="text-4xl text-[#004225] font-semibold py-6">
+                <h1 className="text-3xl text-[#7B5D69] font-garamond font-semibold py-6">
                     Acercate a conocernos
                 </h1>
 
-                <p className="text-gray-600 max-w-2xl mx-auto">
+                <p className="text-gray-600 max-w-2xl font-montserrat mx-auto">
                     Te esperamos para asesorarte con un enfoque médico y personalizado.
                 </p>
             </header>
@@ -29,43 +29,43 @@ export default function ContactView() {
                     <div className="rounded-2xl shadow-md border border-gray-200 bg-white p-10 flex flex-col justify-between">
 
                         <div>
-                            <h2 className="text-3xl text-[#004225] font-semibold mb-8">
+                            <h2 className="text-2xl text-[#7B5D69] font-garamond font-semibold mb-8">
                                 Clínica de Nutrición y Estética
                             </h2>
 
                             <div className="space-y-6 text-gray-700">
 
                                 <div>
-                                    <p className="text-sm uppercase tracking-wide text-gray-500">
+                                    <p className="text-sm font-montserrat uppercase tracking-wide text-gray-500">
                                         Dirección
                                     </p>
-                                    <p className="mt-1">
+                                    <p className="mt-1 font-montserrat">
                                         Mendoza 1667, Quo Container Center
                                     </p>
-                                    <p className="mt-1">
-                                       Piso 1 Local 17
+                                    <p className="mt-1 font-montserrat">
+                                        Piso 1 Local 17
                                     </p>
                                 </div>
 
                                 <div>
-                                    <p className="text-sm uppercase tracking-wide text-gray-500">
+                                    <p className="text-sm uppercase tracking-wide text-gray-500 font-montserrat">
                                         Teléfono / WhatsApp
                                     </p>
                                     <a
                                         href="https://wa.me/5491168638712"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="mt-1 inline-block text-[#004225] underline underline-offset-4 hover:opacity-80 transition"
+                                        className="mt-1 inline-block text-[#7B5D69] underline underline-offset-4 hover:opacity-80 font-montserrat transition"
                                     >
                                         (+54 11) 15-6863-8712
                                     </a>
                                 </div>
 
                                 <div>
-                                    <p className="text-sm uppercase tracking-wide text-gray-500">
+                                    <p className="text-sm uppercase font-montserrat tracking-wide text-gray-500">
                                         Horarios de atención
                                     </p>
-                                    <ul className="mt-2 space-y-1">
+                                    <ul className="mt-2 space-y-1 font-montserrat">
                                         <li>Martes a Viernes: 10:00 h a 19:00 h</li>
                                         <li>Sábados: 10:00 h a 14:00 h</li>
                                         <li>Domingos y Lunes: Cerrado</li>
@@ -83,15 +83,15 @@ export default function ContactView() {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="
-                  h-12 px-6
-                  flex items-center justify-center
-                  bg-[#004225]
-                  text-white
-                  rounded-xl
-                  hover:scale-105
-                  transition-transform duration-300
-                "
-                            >
+                                            h-12 px-6 font-garamond
+                                            flex items-center justify-center
+                                            bg-[#7B5D69]
+                                            text-white
+                                            rounded-xl
+                                            hover:scale-105
+                                            transition-transform duration-300
+                                            ">
+
                                 Consultar por WhatsApp
                             </a>
 
@@ -100,12 +100,12 @@ export default function ContactView() {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="
-                                           h-12 px-6
+                                           h-12 px-6 font-garamond
                                            flex items-center justify-center
-                                           border border-[#004225]
-                                           text-[#004225]
+                                           border border-[#7B5D69]
+                                           text-black
                                            rounded-xl
-                                           hover:bg-[#004225] hover:text-white
+                                           hover:bg-[#7B5D69] hover:text-white
                                            transition-colors duration-300
                                        "
                             >

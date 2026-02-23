@@ -1,7 +1,7 @@
 export default function IconWsp() {
   return (
     <a
-      href="https://wa.me/5491168638712"
+      href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!"
       target="_blank"
       rel="noopener noreferrer"
       className="

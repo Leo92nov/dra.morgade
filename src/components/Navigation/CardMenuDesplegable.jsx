@@ -39,7 +39,13 @@ export default function CardMenuDesplegable() {
               ${hoverCat === cat ? "bg-[#7B5D69]/10 text-black" : "hover:bg-black/5"}
             `}
           >
-            <Link to={`/Servicios/${cat}`}>{cat}</Link>
+            <Link to={`/Servicios/${cat
+              .trim()
+              .split(/\s+/)
+              .pop()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")}
+`}>{cat}</Link>
           </div>
         ))}
 

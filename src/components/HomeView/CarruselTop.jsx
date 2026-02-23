@@ -141,7 +141,7 @@ export default function CarruselTop() {
                ease-out font-garamond
                group-hover:translate-y-0"
                     >
-                    <a href="https://wa.me/5491168638712">Agendar Consulta</a>
+                    <a href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!">Agendar Consulta</a>
                     </span>
                 </button>
 

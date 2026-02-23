@@ -44,11 +44,13 @@ export default function NavBar() {
             />
 
             <div className="w-[25%]">
-              <img
-                className="h-[100px] w-full pt-1"
-                src="/Logos/vm(3)4.png"
-                alt=""
-              />
+              <a href="./">
+                <img
+                  className="h-[100px] w-full pt-1"
+                  src="/Logos/logonv.png"
+                  alt=""
+                />
+              </a>
             </div>
 
             <NavBarButton nombre="Nosotras" to="/Nosotras" darkText={true} />

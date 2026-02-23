@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 
 export default function CarruselMarcas() {
-  const total = 22;
+  const total = 18;
   const visibles = 3;
   const totalSlides = Math.ceil(total / visibles);
 
@@ -36,7 +36,7 @@ export default function CarruselMarcas() {
         Utilizamos solo marcas líderes en su campo
       </h2>
 
-      <section className="w-full max-w-5xl mx-auto my-8 overflow-hidden">
+      <section className="w-full max-w-5xl mx-auto my-12 overflow-hidden">
         <div
           className="flex transition-transform duration-700 ease-in-out"
           style={{

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 
 export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
+
   return (
     <section className="px-4 
                         sm:px-6 
@@ -13,7 +14,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
           lg:flex-row
           2xl:gap-30
           3xl:h-[400px] mb-15">
-          
+
           {/* IMAGEN */}
           <div className="
             w-full 
@@ -51,18 +52,38 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
                           sm:text-md 
                           xl:text-lg">{parrafo}</p>
 
-            <Link
-              to={to}
-              className="
+            <section className="flex justify-between">
+
+              <Link
+                to={to}
+                className="
                 mt-6 inline-flex items-center justify-center
                 h-12 px-6
                 text-white bg-[#7B5D69] rounded-xl
                 hover:scale-105 transition-transform duration-300
                 w-[12rem]
               "
-            >
-              Consultar
-            </Link>
+              >
+                Consultar
+              </Link>
+
+              <button className="
+                          mt-6 inline-flex items-center justify-center
+                          h-12 px-6 cursor-pointer
+                          text-white bg-[#7B5D69] rounded-xl
+                          hover:scale-105 transition-transform duration-300
+                          w-[12rem]">
+                <a href={`/Servicios/${titulo
+                  .trim()
+                  .split(/\s+/)
+                  .pop()
+                  .normalize("NFD")
+                  .replace(/[\u0300-\u036f]/g, "")}`}>
+                  Ver Más
+                </a>
+              </button>
+
+            </section>
           </div>
 
         </div>

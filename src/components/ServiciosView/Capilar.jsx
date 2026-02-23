@@ -1,4 +1,4 @@
-export default function Nutricion (){
+export default function Capilar (){
 
     return <>
     

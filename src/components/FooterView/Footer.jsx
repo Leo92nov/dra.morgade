@@ -74,7 +74,7 @@ export default function Footer() {
                             before:duration-300
                             hover:before:left-0
                             hover:before:w-[105%]">
-                            <a className="w-full h-full text-white flex items-center gap-8 italic transition-transform duration-300 hover:scale-101" href="https://wa.me/5491168638712?text=¡Hola%20dra.%20Morgade!">
+                            <a className="w-full h-full text-white flex items-center gap-8 italic transition-transform duration-300 hover:scale-101" href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!">
                                 <img className="w-6 h-6 transition-transform duration-300 hover:scale-110" src="/NavBar/wspF.svg" alt="" /> (+54 11) 15-6863-8712
                             </a>
                         </li>
