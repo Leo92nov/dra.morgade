@@ -1,6 +1,7 @@
 export const servicios = [
 
     {id: 0, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Toxina botulínica: Tercio Superior',
         descripcion: 'Son suturas reabsorbibles utilizadas en medicina estética para un efecto lifting no quirúrgico',
@@ -8,6 +9,7 @@ export const servicios = [
         img:''
     },
     {id: 1, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Toxina botulínica: Sonrisa Gingival',
         descripcion: 'El PRP es un tratamiento de bioestimulación que utiliza la propia sangre del paciente para rejuvenecer y regenerar la piel de forma natural',
@@ -15,6 +17,7 @@ export const servicios = [
         img:''
     },
     {id: 2, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Toxina botulínica: Bruxismo',
         descripcion: 'El HIFU 12D es un tratamiento de lifting no quirúrgico que utiliza ultrasonido focalizado de alta intensidad para tensar la piel y estimular colágeno en profundidad.',
@@ -22,6 +25,7 @@ export const servicios = [
         img:''
     },
     {id: 3, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Rellenos de ácido hialurónico: Labios',
         descripcion: 'Los exosomas son nano-vesículas extracelulares que actúan como “mensajeros biológicos”, transportando factores de crecimiento, proteínas y señales regenerativas entre las células.',
@@ -29,6 +33,7 @@ export const servicios = [
         img:''
     },
     {id: 4, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Rellenos de ácido hialurónico: Pómulos',
         descripcion: 'La mesoterapia facial consiste en la aplicación de microinyecciones intradérmicas con activos específicos para rejuvenecer, hidratar y mejorar la calidad de la piel.',
@@ -36,6 +41,7 @@ export const servicios = [
         img:''
     },
     {id: 5, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Rellenos de ácido hialurónico: Mentón',
         descripcion: 'Es un bioestimulador dérmico a base de hidroxiapatita de calcio (CaHA) que no solo aporta volumen inmediato, sino que estimula la producción natural de colágeno.',
@@ -43,6 +49,7 @@ export const servicios = [
         img:''
     },
     {id: 6, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Rellenos de ácido hialurónico: Ojeras',
         descripcion: 'El relleno de labios es un tratamiento estético mínimamente invasivo que utiliza ácido hialurónico para mejorar volumen, definición e hidratación de los labios, respetando la armonía facial.',
@@ -50,6 +57,7 @@ export const servicios = [
         img:''
     },
     {id: 7, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Sunekos',
         descripcion: 'El relleno de labios es un tratamiento estético mínimamente invasivo que utiliza ácido hialurónico para mejorar volumen, definición e hidratación de los labios, respetando la armonía facial.',
@@ -57,6 +65,7 @@ export const servicios = [
         img:''
     },
     {id: 8, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Radiesse',
         descripcion: 'Los rellenos faciales con ácido hialurónico son tratamientos mínimamente invasivos diseñados para restaurar volumen, suavizar arrugas y mejorar la armonía del rostro.',
@@ -64,6 +73,7 @@ export const servicios = [
         img:''
     },
     {id: 9, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Sculptra ',
         descripcion: 'La toxina botulínica es uno de los tratamientos más realizados en medicina estética para suavizar arrugas dinámicas y prevenir el envejecimiento en el tercio superior del rostro.',
@@ -71,6 +81,7 @@ export const servicios = [
         img:''
     },
     {id: 10, 
+        rama: "Estética Facial",
         servicio:  'Facial',
         subservicio: 'HarmonyCa',
         descripcion: 'La aplicación de toxina botulínica es un tratamiento mínimamente invasivo que permite corregir la sonrisa gingival, reduciendo la exposición excesiva de encía al sonreír.',
@@ -78,6 +89,7 @@ export const servicios = [
         img:''
     },
     {id: 11, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Exosomas',
         descripcion: 'La aplicación de toxina botulínica puede utilizarse para relajar los músculos que traccionan hacia abajo las comisuras, mejorando la expresión facial.',
@@ -85,6 +97,7 @@ export const servicios = [
         img:''
     },
     {id: 12, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Hilos tensores PDO',
         descripcion: 'La toxina botulínica Full Face es un enfoque avanzado que trata múltiples zonas del rostro en una misma sesión, buscando armonizar la expresión de manera global y natural.',
@@ -92,6 +105,7 @@ export const servicios = [
         img:''
     },
     {id: 13, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Profhilo',
         descripcion: 'Las enzimas inyectables se utilizan para mejorar irregularidades y reducir acúmulos localizados. Se suelen utilizar para reducir la "papada" y tratar ojeras',
@@ -99,6 +113,7 @@ export const servicios = [
         img:''
     },
     {id: 14, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Mesoterapia PDRN y NCTF',
         descripcion: 'Sculptra es un bioestimulador inyectable a base de ácido poli-L-láctico (PLLA) que estimula la producción natural de colágeno, mejorando firmeza, estructura y calidad de la piel de manera progresiva.',
@@ -106,6 +121,7 @@ export const servicios = [
         img:''
     },
     {id: 15, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Microneedling: Dermaglow e Hidralips',
         descripcion: 'La depilación definitiva con tecnología láser es un tratamiento seguro y eficaz que reduce de manera progresiva y duradera el crecimiento del vello.',
@@ -113,6 +129,7 @@ export const servicios = [
         img:''
     },
     {id: 16, 
+        rama: "Estética Facial",
         servicio:  'Facial',
         subservicio: 'Peeling',
         descripcion: 'Los hilos PDO corporales son filamentos reabsorbibles de polidioxanona que se colocan en planos profundos de la piel para mejorar la flacidez y estimular la producción de colágeno en distintas zonas del cuerpo',
@@ -120,6 +137,7 @@ export const servicios = [
         img:''
     },
     {id: 17, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Higiene',
         descripcion: 'Alidya es un tratamiento inyectable diseñado específicamente para mejorar la celulitis y la calidad de la piel corporal.',
@@ -127,41 +145,47 @@ export const servicios = [
         img:''
     },
     {id: 18, 
+        rama: "Estética Facial",
         servicio: 'Facial',
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'La carboxiterapia corporal es un tratamiento médico que consiste en la aplicación subcutánea de dióxido de carbono (CO₂) para mejorar celulitis, flacidez y adiposidad localizada.',
         explicacion: 'Al infiltrarse el CO₂ en la zona tratada: Mejora la microcirculación, Aumenta la oxigenación celular, Estimula producción de colágeno, Favorece el drenaje, Activa el metabolismo de la grasa localizada, El tejido responde volviéndose más firme y uniforme. Indicaciones principales, Celulitis, Flacidez leve a moderada, Estrías, Adiposidad localizada pequeña, Fibrosis post procedimientos',
         img:''
     },
-    {id: 19, 
+    {id: 19,
+        rama:"Estética Corporal",
         servicio: 'Corporal',
         subservicio: 'Enzimas',
         descripcion: 'El HIFU 12D (High Intensity Focused Ultrasound) es un tratamiento no invasivo que utiliza ultrasonido focalizado de alta intensidad para tensar la piel y estimular la producción profunda de colágeno.',
         explicacion: 'La energía ultrasónica: Penetra en distintas capas de la piel, Llega hasta el sistema SMAS (la misma capa que se trabaja en cirugía), Genera puntos de calor controlados, Estimula producción intensa de colágeno, La piel se reafirma progresivamente. Se utiliza en: Abdomen, Brazos, Muslos, Flancos, Glúteos',
         img:''
     },
-    {id: 20, 
+    {id: 20,
+        rama:"Estética Corporal",
         servicio: 'Corporal',
         subservicio: 'Alidya',
         descripcion: 'Los exosomas son nano-vesículas biológicas que actúan como mensajeros celulares, estimulando procesos de regeneración profunda y mejorando la calidad del tejido cutáneo.',
         explicacion: 'Los exosomas: Activan fibroblastos, Estimulan producción de colágeno y elastina, Mejoran reparación tisular, Disminuyen inflamación, Optimizar regeneración celular, Actúan a nivel celular, no solo superficial ¿Para qué están indicados?, Flacidez corporal leve, Estrías, Cicatrices, Piel dañada o desvitalizada, Recuperación post HIFU o radiofrecuencia',
         img:''
     },
-    {id: 21, 
+    {id: 21,
+        rama:"Estética Corporal",
         servicio: 'Corporal',
         subservicio: 'Carboxiterapia',
         descripcion: 'La mesoterapia corporal consiste en la aplicación de microinyecciones intradérmicas con activos específicos para tratar grasa localizada, celulitis, flacidez y mejorar la calidad de la piel.',
         explicacion: 'Mediante pequeñas infiltraciones se administran sustancias que pueden: Estimular el metabolismo local, Favorecer la lipólisis (reducción de grasa), Mejorar la microcirculación, Reducir fibrosis, Estimular colágeno. La formulación se adapta según el objetivo terapéutico ¿Para qué está indicada?, Adiposidad localizada pequeña, Celulitis, Flacidez leve, Estrías, Fibrosis post procedimientos',
         img:''
     },
-    {id: 22, 
+    {id: 22,
+        rama:"Estética Corporal",
         servicio: 'Corporal',
         subservicio: 'Hilos tensores PDO',
         descripcion: 'Radiesse corporal es un tratamiento bioestimulador a base de hidroxiapatita de calcio (CaHA) que mejora la firmeza y calidad de la piel en distintas zonas del cuerpo.',
         explicacion: 'Radiesse corporal tiene un doble mecanismo: 1️⃣ Estímulo inmediato: Mejora leve de la estructura del tejido. 2️⃣ Bioestimulación profunda: Activa los fibroblastos para producir nuevo colágeno, aumentando firmeza y densidad cutánea. Con el tiempo, el producto se reabsorbe y queda el colágeno generado por el cuerpo ¿Para qué está indicado?, Flacidez corporal leve a moderada, Brazos (flacidez tipo “alas”), Abdomen, Muslos, Rodillas, Glúteos, Rejuvenecimiento de manos',
         img:''
     },
-    {id: 23, 
+    {id: 23,
+        rama:"Estética Corporal",
         servicio: 'Corporal',
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'La toxina botulínica en axilas es un tratamiento indicado para tratar la hiperhidrosis (sudoración excesiva). Reduce significativamente la producción de sudor, mejorando confort y calidad de vida.',
@@ -169,6 +193,7 @@ export const servicios = [
         img:''
     },
     {id: 24, 
+        rama: "Tratamientos Capilares",
         servicio: 'Capilar',
         subservicio: 'Mesoterapia',
         descripcion: 'La toxina botulínica para bruxismo es un tratamiento mínimamente invasivo que ayuda a relajar los músculos responsables del apretamiento y rechinamiento involuntario de los dientes.',
@@ -176,6 +201,7 @@ export const servicios = [
         img:''
     },
     {id: 25, 
+        rama: "Tratamientos Capilares",
         servicio: 'Capilar',
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'El Plasma Rico en Plaquetas (PRP) capilar es un tratamiento de bioestimulación que utiliza los propios factores de crecimiento del paciente para fortalecer el cabello y estimular su crecimiento.',
@@ -183,51 +209,51 @@ export const servicios = [
         img:''
     },
     {id: 26, 
-        servicio: 'Láser',
+        rama: "Tratamientos con Láser",
+        servicio: 'Laser',
         subservicio: 'Depilación ',
         descripcion: 'El pellet de testosterona es un tratamiento de terapia hormonal que consiste en la colocación subcutánea de pequeños implantes biodegradables que liberan testosterona de manera sostenida y controlada en el organismo.',
         explicacion: '¿Cómo funciona? El pellet: Se coloca bajo la piel (generalmente en la región glútea). Libera testosterona de forma continua y estable. Mantiene niveles hormonales más constantes que otras formas de administración. La liberación suele mantenerse durante varios meses ¿Para quién está indicado? Puede indicarse en: Hombres con: Hipogonadismo, Fatiga persistente, Disminución de libido, Pérdida de masa muscular, Bajo rendimiento físico. Mujeres (en dosis adecuadas) con:, Déficit androgénico, Disminución del deseo sexual, Fatiga crónica, Cambios asociados a la menopausia. Siempre requiere evaluación médica individual.',
         img:''
     },
     {id: 27, 
-        servicio: 'Láser',
+        rama: "Tratamientos con Láser",
+        servicio: 'Laser',
         subservicio: 'HIFU 12 D',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''
     },
     {id: 28, 
-        servicio: 'Láser',
+        rama: "Tratamientos con Láser",
+        servicio: 'Laser',
         subservicio: 'Nordlys',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''
     }, 
         {id: 29,
-        servicio: 'Medicina Funcional',
+        rama:"Medicina Funcional",
+        servicio: 'Funcional',
         subservicio: 'Descenso de peso',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''
     },
-        {id: 30,
-        servicio: 'Medicina Funcional',
+        {id: 30, 
+        rama: "Medicina Funcional",
+        servicio: 'Funcional',
         subservicio: 'Pellet de testosterona',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''
     },
-        {id: 31,
-        servicio: 'Medicina Funcional',
+        {id: 31, 
+        rama: "Medicina Funcional",
+        servicio: 'Funcional',
         subservicio: 'Sueroterapia',
         descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
         explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
         img:''
     },
-
-
-
-
-
-
 ]

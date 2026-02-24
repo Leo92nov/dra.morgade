@@ -44,22 +44,23 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
                   Consultar
                 </a>
               </button>
-
-              <button className="
+              <Link to={`/Servicios/${titulo
+                .trim()
+                .split(/\s+/)
+                .pop()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")}`}>
+                <button className="
                           mt-6 inline-flex items-center justify-center
                           h-12 px-6 cursor-pointer
                           text-white bg-[#7B5D69] rounded-xl
                           hover:scale-105 transition-transform duration-300
                           w-[12rem]">
-                <a href={`/Servicios/${titulo
-                  .trim()
-                  .split(/\s+/)
-                  .pop()
-                  .normalize("NFD")
-                  .replace(/[\u0300-\u036f]/g, "")}`}>
+
                   Ver Más
-                </a>
-              </button>
+
+                </button>
+              </Link>
             </section>
           </div>
 
