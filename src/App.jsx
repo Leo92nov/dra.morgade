@@ -10,6 +10,7 @@ import ServiciosView from './components/ServiciosView/ServiciosView'
 import NosotrasView from './components/NosotrasView/NosotrasView'
 import ScrollTop from './components/Navigation/ScrollTop'
 import ServiciosGenerales from './components/Navigation/ServiciosGenerales'
+import SingleServ from './components/Navigation/SingleServ'
 
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/' element={<Home />}></Route>
           <Route exact path='/Servicios' element={<ServiciosView/>}></Route>
           <Route exact path='/Servicios/:categoria' element={<ServiciosGenerales/>}></Route>
+          <Route exact path='/Servicios/:categoria/:servid' element={<SingleServ/>}></Route>
           <Route exact path='/Contacto' element={<ContactView />}></Route>
           <Route exact path='/Nosotras' element={<NosotrasView/>}></Route>
 
