@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="flex flex-wrap lg:justify-between">
 
                 <section className="2xl:w-[33%] lg:w-[50%] pl-4 flex flex-col gap-4 items-center ">
-                    <img className="w-20 h-20 mt-2" src="/Logos/logoVMNF.png" alt="" />
+                    <img className="w-20 h-20 mt-2" src="/Logos/logoVMNF.webp" alt="" />
                     <h2 className="text-white pt-2 font-montserrat">Dra. Verónica Morgade</h2>
                     <h2 className="text-white pt-2 font-montserrat">Mendoza 1667 Quo Container Center</h2>
                     <h2 className="text-white pt-2 font-montserrat">Ingeniero Maschwitz CP:1623</h2>
