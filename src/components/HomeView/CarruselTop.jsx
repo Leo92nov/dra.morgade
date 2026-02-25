@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 
 const slides = [
-    { img: "/CTA/CTA1.png", title: "Realza tu belleza natural.", subtitle: "Tratamientos faciales avanzados." },
-    { img: "/CTA/CTA2.png", title: "Resultados visibles.", subtitle: "Tecnología estética de última generación." },
-    { img: "/CTA/CTA3.png", title: "Cuidado personalizado.", subtitle: "Planes diseñados para vos." },
-    { img: "/CTA/CTA4.png", title: "Rejuvenecimiento facial.", subtitle: "Resultados naturales." },
-    { img: "/CTA/CTA5.png", title: "Tu mejor versión.", subtitle: "Agendá tu consulta hoy." },
+    { img: "/CTA/CTA1.webp", title: "Realza tu belleza natural.", subtitle: "Tratamientos faciales avanzados." },
+    { img: "/CTA/CTA2.webp", title: "Resultados visibles.", subtitle: "Tecnología estética de última generación." },
+    { img: "/CTA/CTA3.webp", title: "Cuidado personalizado.", subtitle: "Planes diseñados para vos." },
+    { img: "/CTA/CTA4.webp", title: "Rejuvenecimiento facial.", subtitle: "Resultados naturales." },
+    { img: "/CTA/CTA5.webp", title: "Tu mejor versión.", subtitle: "Agendá tu consulta hoy." },
 ];
 
 export default function CarruselTop() {

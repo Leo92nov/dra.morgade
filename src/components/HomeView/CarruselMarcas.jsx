@@ -54,7 +54,7 @@ export default function CarruselMarcas() {
                   className="w-1/3 flex justify-center items-center"
                 >
                   <img
-                    src={`/carrusel-marcas/${n}.png`}
+                    src={`/carrusel-marcas/${n}.webp`}
                     className="h-20 object-contain"
                     alt=""
                   />

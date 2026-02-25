@@ -47,7 +47,7 @@ export default function NavBar() {
               <a href="./">
                 <img
                   className="h-[100px] w-full pt-1"
-                  src="/Logos/logonv.png"
+                  src="/Logos/logonv.webp"
                   alt=""
                 />
               </a>

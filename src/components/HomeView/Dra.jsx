@@ -42,7 +42,7 @@ export default function Dra() {
             <div
                 className={[
                     "absolute inset-0 w-[160%] will-change-transform",
-                    "bg-[url('/fondo.jpg')] bg-cover bg-center bg-no-repeat",
+                    "bg-[url('/fondo.webp')] bg-cover bg-center bg-no-repeat",
                     "transition-transform duration-[1100ms] ease-out",
                     active ? "translate-x-0" : "translate-x-[100%]",
                 ].join(" ")}
@@ -65,13 +65,13 @@ export default function Dra() {
                     <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
                         <Listones
                             titulo="Calidad Asegurada"
-                            img="/listones/seguridad.png"
+                            img="/listones/seguridad.webp"
                             parrafo="Trabajamos con protocolos estrictos respaldados, tecnología certificada y productos de reconocidos a nivel internacional."
                         />
 
                         <Listones
                             titulo="Clínica de excelencia"
-                            img="/listones/clinica.png"
+                            img="/listones/cc.png"
                             parrafo="Nuestras instalaciones fueron diseñadas con ambientes luminosos y confortables que garantizan una atención de primer nivel."
                         />
                     </div>
@@ -79,13 +79,13 @@ export default function Dra() {
                     <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
                         <Listones
                             titulo="Productos premium"
-                            img="/listones/crema.png"
+                            img="/listones/crema.webp"
                             parrafo="Nuestros productos tópicos son seleccionados bajo estrictos estándares de excelencia y adaptados a cada tratamiento."
                         />
 
                         <Listones
                             titulo="Protocolos certificados"
-                            img="/listones/rrhh.png"
+                            img="/listones/rrhh.webp"
                             parrafo="Nuestro compromiso profesional y la atención personalizada se refleja en cada detalle, ofreciendo una experiencia de máxima calidad."
                         />
                     </div>
@@ -96,7 +96,7 @@ export default function Dra() {
                                 lg:w-[60%] 
                                 xl:w-[45%] xl:justify-end xl:items-end">
 
-                    <img className="h-[100%] w-full" src="/dreNB.png" alt="" />
+                    <img className="h-[100%] w-full" src="/dreNB.webp" alt="" />
                 </div>
 
             </div>
