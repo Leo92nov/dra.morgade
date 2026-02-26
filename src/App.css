@@ -3,6 +3,7 @@
 @theme {
 
   --breakpoint-3xl: 120rem;
+  --breakpoint-xsm: 25rem;
   --font-garamond: "Cormorant Garamond", serif;
    --font-montserrat: "Montserrat", sans-serif;
     --font-inter: "Inter", sans-serif;

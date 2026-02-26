@@ -102,6 +102,7 @@ export default function CarruselTop() {
             {/* Textos (fade + typewriter) */}
             <div
                 className={`absolute
+                           md:top-[20%]
                            top-[5%] left-[60%]
                            xl:w-auto xl:top-[30%] xl:left-[75%] lg:top-[30%] lg:left-[55%] md:left-[46%] w-[500px] xl:-translate-x-1/2
                            text-white text-center
