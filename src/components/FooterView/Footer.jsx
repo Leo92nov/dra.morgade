@@ -31,7 +31,7 @@ export default function Footer() {
                                     md:w-[50%] md:flex md:flex-col md:items-center md:mt-12 md:mx-auto 
                                     lg:w-[50%] lg:flex lg:flex-col lg:items-center lg:mt-12
                                     xl:mt-12
-                                    2xl:pl-36 2xl:w-[33%] 2xl:mt-4">
+                                    2xl:pl-36 2xl:w-[33%] 2xl:mt-14">
 
                     <h2 className="text-white pt-4 text-2xl mb-8 font-garamond
                     
