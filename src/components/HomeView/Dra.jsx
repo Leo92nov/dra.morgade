@@ -179,15 +179,15 @@ export default function Dra() {
       {/* ===================== */}
       {/* DESKTOP (>=lg)        */}
       {/* ===================== */}
-      <div className="hidden lg:block relative overflow-hidden lg:pl-8 rounded-2xl">
+      <div className="hidden lg:block relative overflow-hidden lg:pl-8">
         <div className={fondoClasses} />
 
-        <div className="relative w-full flex justify-between gap-6 xl:items-center pl-8">
+        <div className="relative w-full flex justify-between gap- xl:items-center pl-8">
           {/* LISTONES */}
           <div
             className={[
               "transition-all duration-700 flex h-full w-auto items-center",
-              "lg:w-[40%] lg:flex-col lg:justify-between",
+              "lg:w-[40%] lg:flex-col lg:justify-between lg:pt-4",
               "xl:flex-row xl:w-[45%] xl:gap-20",
               showListones ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
             ].join(" ")}

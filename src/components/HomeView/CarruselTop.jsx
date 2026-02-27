@@ -78,76 +78,152 @@ export default function CarruselTop() {
     }, [textIndex]);
 
     return (
-        <figure className="relative w-full h-[400px] 
-        md:h-[500px] 
-        xl:h-[800px] 
-        2xl:h-[800px] overflow-hidden
-        3xl:h-[850px]">
-            {/* Slides */}
-            {slides.map((slide, index) => (
-                <img
-                    key={index}
-                    src={slide.img}
-                    alt=""
-                    className={`absolute inset-0 w-full h-full object-cover 2xl:object-top
-                               transition-opacity duration-[4000ms]
-                               ${index === current ? "opacity-100" : "opacity-0"}`}
-
-                />
-            ))}
-
-            {/* Overlay degradado para legibilidad del lado derecho */}
-            <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/35 to-transparent" />
-
-            {/* Textos (fade + typewriter) */}
-            <div
-                className={`absolute
-                           md:top-[20%]
-                           top-[5%] left-[60%]
-                           xl:w-auto xl:top-[30%] xl:left-[75%] lg:top-[30%] lg:left-[55%] md:left-[46%] w-[500px] xl:-translate-x-1/2
-                           text-white text-center
-                           transition-opacity duration-[4000ms]
-                           ${textVisible ? "opacity-100" : "opacity-0"}`}
+        <>
+            {/* ✅ <sm: imagen arriba (solo carrusel) */}
+            <figure
+                className="
+          relative w-full h-[320px]
+          overflow-hidden
+          sm:hidden
+        "
             >
-                {/* Reservo altura para que el botón NO se mueva */}
+                {slides.map((slide, index) => (
+                    <img
+                        key={index}
+                        src={slide.img}
+                        alt=""
+                        className={`absolute inset-0 w-full h-full object-cover object-left 2xl:object-top
+                        transition-opacity duration-[4000ms]
+                        ${index === current ? "opacity-100" : "opacity-0"}`}
+                    />
+                ))}
+                <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/35 to-transparent" />
+            </figure>
+
+            {/* ✅ <sm: textos + botón abajo (contenedor aparte) */}
+            <section
+                className={`
+                    sm:hidden
+                    w-full
+                    px-4 py-6
+                    bg-white
+                    text-black
+                    text-center
+                    transition-opacity duration-[4000ms]
+                    ${textVisible ? "opacity-100" : "opacity-0"}`}>
+
                 <div className="min-h-[56px]">
-                    <h2 className="xl:text-5xl font-garamond lg:text-3xl text-2xl xl:mb-4 font-light drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+                    <h2 className="text-2xl font-garamond font-light leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedTitle}
                     </h2>
                 </div>
 
-                <div className="min-h-[36px] xl:mt-8">
-                    <h2 className="xl:text-2xl text-lg font-garamond drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
+                <div className="min-h-[36px]">
+                    <h2 className="text-lg font-garamond leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
                         {typedSubtitle}
                     </h2>
                 </div>
+
                 <button
-                    className="relative cursor-pointer text-center overflow-hidden bg-[#7B5D69] xl:text-xl xl:mt-8 px-8 rounded-full w-40 text-white group h-[40px]
-             shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
+                    className="relative cursor-pointer overflow-hidden bg-[#7B5D69] rounded-full text-white group
+               mt-2 w-56 h-[42px] text-center
+               shadow-[0_10px_25px_rgba(0,0,0,0.15)] transition-all duration-300"
                 >
-                    {/* Texto que sale (más rápido) */}
                     <span
                         className="absolute inset-0 flex items-center justify-center
-               transition-transform duration-500 lg:mr-2
-               ease-in font-garamond
-               group-hover:-translate-y-full"
+                 transition-transform duration-500 ease-in font-garamond
+                 group-hover:-translate-y-full"
                     >
                         Agendar consulta
                     </span>
 
-                    {/* Texto que entra (más lento) */}
                     <span
                         className="absolute inset-0 flex items-center justify-center
-               translate-y-full transition-transform duration-600
-               ease-out font-garamond
-               group-hover:translate-y-0"
+                 translate-y-full transition-transform duration-600
+                 ease-out font-garamond
+                 group-hover:translate-y-0"
                     >
-                    <a href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!">Agendar Consulta</a>
+                        <a href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!">
+                            Agendar Consulta
+                        </a>
                     </span>
                 </button>
+            </section>
 
+            {/* ✅ sm+: tu carrusel ORIGINAL intacto */}
+            <figure
+                className="
+                        hidden sm:block relative w-full h-[400px]
+                        md:h-[500px]
+                        xl:h-[800px]
+                        2xl:h-[800px] overflow-hidden
+                        3xl:h-[850px]">
 
-            </div>
-        </figure>
+                {/* Slides */}
+                {slides.map((slide, index) => (
+                    <img
+                        key={index}
+                        src={slide.img}
+                        alt=""
+                        className={`absolute inset-0 w-full h-full object-cover 2xl:object-top
+                        transition-opacity duration-[4000ms]
+                        ${index === current ? "opacity-100" : "opacity-0"}`}
+                    />
+                ))}
+
+                {/* Overlay degradado para legibilidad del lado derecho */}
+                <div className="absolute inset-0 bg-gradient-to-l from-black/75 via-black/35 to-transparent" />
+
+                {/* Textos (fade + typewriter) */}
+                <div
+                    className={`absolute
+                      md:top-[20%]
+                      top-[5%] left-[60%]
+                      xl:w-auto xl:top-[30%] xl:left-[75%] lg:top-[30%] lg:left-[55%] md:left-[46%] w-[500px] xl:-translate-x-1/2
+                      text-white text-center
+                      transition-opacity duration-[4000ms]
+                      ${textVisible ? "opacity-100" : "opacity-0"}`}
+                >
+                    {/* Reservo altura para que el botón NO se mueva */}
+                    <div className="min-h-[56px]">
+                        <h2 className="xl:text-5xl font-garamond lg:text-3xl text-2xl xl:mb-4 font-light drop-shadow-lg leading-tight whitespace-nowrap overflow-hidden text-ellipsis">
+                            {typedTitle}
+                        </h2>
+                    </div>
+
+                    <div className="min-h-[36px] xl:mt-8">
+                        <h2 className="xl:text-2xl text-lg font-garamond drop-shadow-lg leading-snug whitespace-nowrap overflow-hidden text-ellipsis">
+                            {typedSubtitle}
+                        </h2>
+                    </div>
+
+                    <button
+                        className="relative cursor-pointer  overflow-hidden bg-[#7B5D69] rounded-full text-white group 
+                       xl:text-xl xl:mt-8
+                       md:w-40 md:h-[40px] md:text-center md:mt-5
+                       sm:w-20 sm:h-[30px] sm:text-lg
+                       shadow-[0_10px_25px_rgba(0,0,0,0.25)] transition-all duration-300"
+                    >
+                        <span
+                            className="absolute inset-0 flex items-center justify-center
+                         transition-transform duration-500 lg:mr-2
+                         ease-in font-garamond
+                         group-hover:-translate-y-full"
+                        >
+                            Agendar consulta
+                        </span>
+
+                        <span
+                            className="absolute inset-0 flex items-center justify-center
+                         translate-y-full transition-transform duration-600
+                         ease-out font-garamond
+                         group-hover:translate-y-0"
+                        >
+                            <a href="https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!">Agendar Consulta</a>
+                        </span>
+                    </button>
+                </div>
+            </figure>
+        </>
     );
 }

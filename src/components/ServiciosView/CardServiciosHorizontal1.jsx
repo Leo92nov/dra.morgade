@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
 
   return (
-    <section className="px-4 
+    <section className="p-4
                         sm:px-6 
                         lg:px-8 
                         2xl:w-[80%] 2xl:mx-auto
                         3xl:w-[80%] 3xl:mx-auto 3xl:mt-20">
       <article className="w-full ">
         <div className="
-          flex flex-col gap-40
+          flex flex-col gap-10
           lg:flex-row
           2xl:gap-30
           3xl:h-[400px] mb-15">
@@ -21,8 +21,8 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
             lg:w-2/6
             xl:w-1/2 
             2xl:w-4/6
-            3xl:w-2/4 3xl:h-full
-          ">
+            3xl:w-2/4 3xl:h-full">
+
             <div className="w-full h-full overflow-hidden rounded-2xl">
               <img
                 className="w-full h-full object-cover"
@@ -37,7 +37,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
           <div className="
             w-full 
             lg:w-4/6 
-            xl:w-1/2 
+            xl:w-1/2 xl:flex xl:flex-col xl:justify-around
             2xl:w-2/6
             3xl:w-2/4 3xl:h-full
             flex flex-col justify-center">
@@ -52,12 +52,13 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
                           sm:text-md 
                           xl:text-lg">{parrafo}</p>
 
-            <section className="flex justify-between 2xl:gap-16">
+            <section className="flex justify-between 
+                                2xl:gap-16">
               <a href={`https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!%20Me%20gustaría%20agendar%20una%20consulta%20para%20${titulo}`}>
 
                 <button className="
                 mt-6 inline-flex items-center justify-center
-                h-12 px-6 cursor-pointer
+                h-12 px-6 cursor-pointer w-[120px] 2xl:w-[auto]
                 text-white bg-[#7B5D69] rounded-xl
                 hover:scale-105 transition-transform duration-300
                 w-[12rem]">
@@ -77,7 +78,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
 
                 <button className="
                           mt-6 inline-flex items-center justify-center
-                          h-12 px-6 cursor-pointer
+                          h-12 px-6 cursor-pointer w-[120px]
                           text-white bg-[#7B5D69] rounded-xl
                           hover:scale-105 transition-transform duration-300
                           w-[12rem]">

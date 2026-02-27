@@ -2,17 +2,16 @@ import { Link } from "react-router-dom";
 
 export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
   return (
-    <section className="px-4 py-10 bg-gray-100
+    <section className="p-4 my-10
                         sm:px-6 
                         lg:px-8  
                         2xl:w-[80%] 2xl:mx-auto
                         3xl:w-[80%] 3xl:mx-auto">
       <article className="w-full">
-        <div className="
-          flex flex-col mb-15
-          lg:flex-row
-          2xl:gap-30
-          3xl:h-[400px] 3xl:gap-40">
+        <div className="flex flex-col mb-15 gap-10
+                        lg:flex-row
+                        2xl:gap-30
+                        3xl:h-[400px] 3xl:gap-40">
 
           {/* TEXTO */}
           <div className="
@@ -36,7 +35,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
 
             <section className="flex justify-between 2xl:gap-16">
               <button className="mt-6 inline-flex items-center justify-center
-                                  h-12 px-6
+                                  h-12 px-6 w-[auto]
                                   text-white bg-[#7B5D69] rounded-xl
                                   hover:scale-105 transition-transform duration-300
                                   w-[12rem]">
@@ -52,7 +51,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
                 .replace(/[\u0300-\u036f]/g, "")}`}>
                 <button className="
                           mt-6 inline-flex items-center justify-center
-                          h-12 px-6 cursor-pointer
+                          h-12 px-6 cursor-pointer w-[auto]
                           text-white bg-[#7B5D69] rounded-xl
                           hover:scale-105 transition-transform duration-300
                           w-[12rem]">
