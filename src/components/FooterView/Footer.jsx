@@ -110,8 +110,8 @@ export default function Footer() {
                             before:duration-300
                             hover:before:left-0
                             hover:before:w-[105%]">
-                            <a className="w-full h-full text-white flex items-center gap-8 italic transition-transform duration-300 hover:scale-101" href="https://www.facebook.com/dra.morgade">
-                                <img className="w-6 h-6 transition-transform duration-300 hover:scale-110" src="/Svgs/ytb.svg" alt="" />
+                            <a className="w-full h-full text-white flex items-center gap-8 italic transition-transform duration-300 hover:scale-101" href="https://www.youtube.com/@VeronicaMorgade">
+                                <img className="w-6 h-6 transition-transform duration-300 hover:scale-110" src="/Svgs/ytb.svg" alt="" />/@VeronicaMorgade
                             </a>
                         </li>
 

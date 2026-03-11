@@ -1,4 +1,4 @@
-export default function CardServiciosHome({ img, servicio }) {
+export default function CardServiciosHome({ img, servicio, descripcion }) {
 
     function handleClick() {
         window.location.href = `/Servicios/${servicio.trim()
@@ -10,7 +10,7 @@ export default function CardServiciosHome({ img, servicio }) {
 
     return (
         <>
-            <article className="w-50">
+            <article className="w-52">
 
                 {/* Contenedor para recortar el zoom */}
                 <div className="overflow-hidden rounded-2xl">
@@ -29,7 +29,7 @@ export default function CardServiciosHome({ img, servicio }) {
 
                 <div className="w-[50%] border border-[#D6CBCB] mx-auto my-4"></div>
 
-                <p className="font-montserrat text-sm">Lorem ipsum dolor sit amet conse ctetur adi pisi cing elit.</p>
+                <p className="font-montserrat text-sm">{descripcion}</p>
 
                 <div className="flex justify-center">
                     <button

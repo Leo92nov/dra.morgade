@@ -75,11 +75,11 @@ export default function Home() {
 
       <h2 className="text-center font-garamond text-3xl my-8 bg-pink-100">Nuestros tratamientos</h2>
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
-        <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" />
-        <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" />
-        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Tratamiento Capilar" />
-        <CardServiciosHome img="/HomeCards/laser.jpg" servicio="Tratamientos con Láser"/>
-        <CardServiciosHome img="/HomeCards/suero.webp" servicio="Medicina Funcional"/>
+        <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" descripcion=" Se centra en la restauración, rejuvenecimiento y armonización del rostro mediante procedimientos mínimamente invasivos. Su objetivo es optimizar la estructura cutánea y los volúmenes faciales, tratando signos de envejecimiento como arrugas y flacidez, pero siempre priorizando la naturalidad y la salud de la barrera cutánea."/>
+        <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" descripcion=" Es el conjunto de protocolos terapéuticos diseñados para modelar la silueta y mejorar la calidad de los tejidos del cuerpo. Abarca desde la reducción de adiposidad localizada y el tratamiento de la celulitis hasta la reafirmación dérmica, combinando tecnología de vanguardia con un enfoque integral en la composición corporal." />
+        <CardServiciosHome img="/HomeCards/capilar.webp" servicio="Tratamiento Capilar" descripcion="Esta disciplina se enfoca en la restauración de la salud del cuero cabelludo y el fortalecimiento de la unidad folicular. A través de protocolos avanzados de bioestimulación, buscamos optimizar el ciclo de crecimiento natural, frenar el debilitamiento prematuro y recuperar el volumen perdido de forma natural y paulatina. " />
+        <CardServiciosHome img="/HomeCards/laser.jpg" servicio="Tratamientos con Láser" descripcion="Representa la vanguardia tecnológica en dermatología y estética. Utiliza energía lumínica de alta precisión para corregir imperfecciones, eliminar lesiones pigmentarias, realizar depilación definitiva o promover la remodelación del colágeno, ofreciendo resultados profundos con tiempos de recuperación mínimos."/>
+        <CardServiciosHome img="/HomeCards/suero.webp" servicio="Medicina Funcional" descripcion="Es un modelo médico que busca identificar la raíz de las enfermedades y desequilibrios, en lugar de solo tratar los síntomas. Considera al paciente como un sistema integrado (genética, entorno y estilo de vida), enfocándose en la prevención y la optimización del rendimiento orgánico para alcanzar una longevidad saludable."/>
       </section>
 
       <CarruselMarcas />
