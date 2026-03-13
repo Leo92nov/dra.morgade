@@ -36,7 +36,7 @@ export default function ServiciosGenerales() {
           <article
             key={s.id}
             className="w-[80%] rounded-xl flex flex-col mx-12 mb-12 mt-8 justify-between border border-[#7B5D69]
-                       md:w-[55%] lg:w-[40%] 2xl:w-[30%]"
+                       md:w-[55%] lg:w-[35%] 2xl:w-[25%]"
           >
             <div className="w-full h-[300px] mb-2">
               <img className="w-full h-full object-fill rounded-t-xl" src="/asd.png" alt="" />
@@ -60,7 +60,7 @@ export default function ServiciosGenerales() {
               <a
                 href={`https://wa.me/5491168638712?text=Hola%20Dra.%20Morgade!%20Quiero%20consultar%20sobre%20${s.subservicio}`}
               >
-                <button className="font-garamond border border-[#7B5D69] p-2 rounded-2xl hover:bg-[#7B5D69] hover:text-white transition">
+                <button className="font-garamond border border-[#7B5D69] p-2 rounded-3xl hover:bg-[#7B5D69] hover:text-white transition">
                   Realizar Consulta
                 </button>
               </a>
