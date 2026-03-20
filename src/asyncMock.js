@@ -141,8 +141,8 @@ export const servicios = [
         rama: "Estética Facial",
         servicio:  'Facial',
         subservicio: 'Peeling',
-        descripcion: 'Los hilos PDO corporales son filamentos reabsorbibles de polidioxanona que se colocan en planos profundos de la piel para mejorar la flacidez y estimular la producción de colágeno en distintas zonas del cuerpo',
-        explicacion: 'Tienen un doble efecto: 1️⃣ Efecto tensor inmediato: Generan una leve tracción mecánica que mejora la firmeza. 2️⃣ Bioestimulación progresiva: Estimulan producción de colágeno y elastina, mejorando la calidad de la piel con el tiempo. Aunque el hilo se reabsorbe en meses, el colágeno generado prolonga el resultado.',
+        descripcion: 'Es uno de los tratamientos más clásicos y efectivos en estética para renovar la piel y mejorar múltiples alteraciones cutáneas. ',
+        explicacion: 'Es uno de los tratamientos más clásicos y efectivos en estética para renovar la piel y mejorar múltiples alteraciones cutáneas. Consiste en la aplicación de sustancias químicas sobre la piel para provocar una exfoliación controlada. De esta manera, se genera una renovación de la piel, eliminación de capas dañadas, y estimulación de colágeno. Cada piel es única, por eso el protocolo se diseña de forma personalizada, utilizando diferentes activos y concentraciones, priorizando resultados naturales y el cuidado integral de la piel.',
         img:''
     },
     {id: 17, 
@@ -252,8 +252,8 @@ export const servicios = [
         rama:"Medicina Funcional",
         servicio: 'Funcional',
         subservicio: 'Descenso de peso',
-        descripcion: 'La sueroterapia es un tratamiento que consiste en la administración intravenosa de sueros formulados con vitaminas, minerales, antioxidantes y otros nutrientes, con el objetivo de mejorar el bienestar general y optimizar el funcionamiento del organismo.',
-        explicacion: '¿Cómo funciona? A través de una vía intravenosa se administran combinaciones personalizadas que pueden incluir: Vitamina C, Complejo B, Magnesio, Zinc, Aminoácidos, Antioxidantes ¿Para qué está indicada? Fatiga o agotamiento físico, Estrés, Bajos niveles de energía, Déficit vitamínico, Refuerzo del sistema inmunológico, Recuperación post enfermedad o entrenamiento intenso. Permite una absorción directa y rápida, ya que los nutrientes ingresan al torrente sanguíneo sin pasar por el sistema digestivo. La formulación se adapta según las necesidades del paciente.',
+        descripcion: 'Nuestro programa de descenso de peso está diseñado y supervisado por profesionales de la salud, con un enfoque integral, seguro y basado en evidencia.',
+        explicacion: 'Nuestro programa de descenso de peso está diseñado y supervisado por profesionales de la salud, con un enfoque integral, seguro y basado en evidencia. Se trata de un tratamiento personalizado que combina acompañamiento médico, educación nutricional, cambios en el estilo de vida y, cuando está indicado, apoyo farmacológico para potenciar los resultados. En determinados casos, se puede indicar tratamiento con medicamentos como semaglutida u otros fármacos de la misma familia, que actúan regulando el apetito y mejorando el metabolismo. Este programa no se basa en dietas restrictivas, sino en la construcción de hábitos saludables y sostenibles en el tiempo. El objetivo es no solo bajar de peso, sino también mejorar la composición corporal, la salud metabólica y el bienestar general. Los resultados son progresivos y seguros, con un acompañamiento continuo que permite sostenerlos a largo plazo.',
         img:''
     },
         {id: 30, 
