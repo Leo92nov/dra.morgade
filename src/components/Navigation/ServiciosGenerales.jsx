@@ -35,14 +35,14 @@ export default function ServiciosGenerales() {
         {serviciosFiltrados.map((s) => (
           <article
             key={s.id}
-            className="w-[80%] rounded-xl flex flex-col mx-12 mb-12 mt-8 justify-between border border-[#7B5D69]
+            className="w-[80%] rounded-xl flex flex-col mx-12 mb-12 mt-8 justify-between border border-[#27532f]
                        md:w-[55%] lg:w-[35%] 2xl:w-[25%]"
           >
             <div className="w-full h-[300px] mb-2">
               <img className="w-full h-full object-fill rounded-t-xl" src="/asd.png" alt="" />
             </div>
 
-            <h2 className="text-xl font-garamond text-center pb-2 text-[#7B5D69]">
+            <h2 className="text-xl font-garamond text-center pb-2 text-[#27532f]">
               {s.subservicio}
             </h2>
 
@@ -52,7 +52,7 @@ export default function ServiciosGenerales() {
 
             <div className="flex justify-between items-end p-4">
               <Link to={`/Servicios/${categoria}/${s.id}`}>
-                <button className="font-garamond border border-[#7B5D69] p-2 rounded-3xl hover:bg-[#7B5D69] hover:text-white transition">
+                <button className="font-garamond border border-[#27532f] p-2 rounded-3xl hover:bg-[#27532f] hover:text-white transition">
                   Ver más...
                 </button>
               </Link>
@@ -60,7 +60,7 @@ export default function ServiciosGenerales() {
               <a
                 href={`https://wa.me/5491168638712?text=Hola%20Dra.%20Morgade!%20Quiero%20consultar%20sobre%20${s.subservicio}`}
               >
-                <button className="font-garamond border border-[#7B5D69] p-2 rounded-3xl hover:bg-[#7B5D69] hover:text-white transition">
+                <button className="font-garamond border border-[#27532f] p-2 rounded-3xl hover:bg-[#27532f] hover:text-white transition">
                   Realizar Consulta
                 </button>
               </a>

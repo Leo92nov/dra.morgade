@@ -51,7 +51,7 @@ export default function CardMenuDesplegable() {
               setHoverIdx(idx);
             }}
             className={`px-3 py-2 rounded-lg cursor-pointer transition-colors font-garamond
-              ${hoverCat === cat ? "bg-[#7B5D69]/10 text-black" : "hover:bg-black/5"}
+              ${hoverCat === cat ? "bg-[#27532f]/10 text-black" : "hover:bg-green/5"}
             `}
           >
             {/* Lista de categorías: va a /Servicios/:categoria */}
@@ -70,7 +70,7 @@ export default function CardMenuDesplegable() {
               {subservicios.map(({ id, subservicio }) => (
                 <li
                   key={id}
-                  className="hover:text-[#7B5D69] hover:scale-105 transition-transform duration-200 w-full"
+                  className="hover:text-[#27532f] hover:scale-105 transition-transform duration-200 w-full"
                 >
                   {/* ✅ Detalle: /Servicios/:categoria/:servid */}
                   <Link

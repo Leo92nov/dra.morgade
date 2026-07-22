@@ -125,7 +125,7 @@ export default function CarruselTop() {
                 </div>
 
                 <button
-                    className="relative cursor-pointer overflow-hidden bg-[#7B5D69] rounded-full text-white group
+                    className="relative cursor-pointer overflow-hidden bg-[#27532f] rounded-full text-white group
                mt-2 w-56 h-[42px] text-center
                shadow-[0_10px_25px_rgba(0,0,0,0.15)] transition-all duration-300"
                 >
@@ -198,7 +198,7 @@ export default function CarruselTop() {
                     </div>
 
                     <button
-                        className="relative cursor-pointer  overflow-hidden bg-[#7B5D69] rounded-full text-white group 
+                        className="relative cursor-pointer  overflow-hidden bg-[#27532f] rounded-full text-white group 
                        xl:text-xl xl:mt-8
                        md:w-40 md:h-[40px] md:text-center md:mt-5
                        sm:w-20 sm:h-[30px] sm:text-lg

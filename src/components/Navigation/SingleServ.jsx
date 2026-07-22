@@ -31,10 +31,10 @@ export default function SingleServ() {
                                 lg:w-2/5
                                 md:w-3/5
                                 w-full">
-                        <h2 className="font-garamond text-2xl px-8 py-4 text-[#7B5D69]">{servicioUnico.subservicio}</h2>
+                        <h2 className="font-garamond text-2xl px-8 py-4 text-[#27532f]">{servicioUnico.subservicio}</h2>
                         <p className="font-montserrat mb-8 px-8 py-4">{servicioUnico.explicacion}</p>
-                        <button className="border border-[#7B5D69] font-garamond text-lg rounded-2xl 2xl:p-2 p-1 ml-8 
-                                       hover:cursor-pointer hover:bg-[#7B5D69] hover:text-white hover:scale-105 hover:tranition-transform hover:duration-300">
+                        <button className="border border-[#27532f] font-garamond text-lg rounded-2xl 2xl:p-2 p-1 ml-8 
+                                       hover:cursor-pointer hover:bg-[#27532f] hover:text-white hover:scale-105 hover:tranition-transform hover:duration-300">
                             ¡Consultanos!
                         </button>
                     </div>

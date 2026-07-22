@@ -104,13 +104,13 @@ export default function NavBar() {
                     <div className="p-2">
                       <Link
                         to="/Servicios"
-                        className="block px-3 py-2 font-semibold text-[#7B5D69]"
+                        className="block px-3 py-2 font-semibold text-[#27532f]"
                         onClick={closeAll}
                       >
                         Ver todos
                       </Link>
 
-                      <div className="my-1 h-px bg-[#7B5D69]/70" />
+                      <div className="my-1 h-px bg-[#27532f]/70" />
 
                       {categorias.map((cat) => (
                         <Link

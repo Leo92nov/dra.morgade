@@ -163,7 +163,7 @@ export default function Dra() {
                 onClick={() => setSlideIdx(i)}
                 className={[
                   "h-2 w-2 rounded-full transition-all",
-                  i === slideIdx ? "bg-[#7B5D69] w-6" : "bg-black/20",
+                  i === slideIdx ? "bg-[#27532f] w-6" : "bg-black/20",
                 ].join(" ")}
                 aria-label={`Ir al slide ${i + 1}`}
               />

@@ -17,7 +17,7 @@ function TestimonioCard({ tratamiento, paciente, devolucion }) {
       ">
         
         {/* línea decorativa superior izquierda */}
-        <div className="absolute top-0 left-0 w-16 h-1 bg-[#7B5D69] rounded-tr-full"></div>
+        <div className="absolute top-0 left-0 w-16 h-1 bg-[#27532f] rounded-tr-full"></div>
 
         {/* Comillas */}
         <span className="absolute top-2 left-8 text-7xl text-pink-100/80 font-serif">
@@ -25,7 +25,7 @@ function TestimonioCard({ tratamiento, paciente, devolucion }) {
         </span>
 
         <div className="relative z-10">
-          <h2 className="text-[#7B5D69] font-garamond font-heavy text-lg ">
+          <h2 className="text-[#27532f] font-garamond font-heavy text-lg ">
             {tratamiento}
           </h2>
 
@@ -40,7 +40,7 @@ function TestimonioCard({ tratamiento, paciente, devolucion }) {
           </p>
         </div>
 
-        <div className="mt-6 h-[2px] w-12 bg-[#90756E] rounded-full" />
+        <div className="mt-6 h-[2px] w-12 bg-[#27532f] rounded-full" />
       </section>
     </article>
   );
@@ -131,7 +131,7 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
               <button
                 type="button"
                 onClick={prev}
-                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 border border-gray-200 shadow-sm rounded-full w-10 h-10 grid place-items-center hover:bg-white"
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 border border-[#EFBF04] shadow-sm rounded-full w-10 h-10 grid place-items-center hover:bg-white"
                 aria-label="Anterior"
               >
                 ‹
@@ -140,7 +140,7 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
               <button
                 type="button"
                 onClick={next}
-                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 border border-gray-200 shadow-sm rounded-full w-10 h-10 grid place-items-center hover:bg-white"
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 border border-[#EFBF04] shadow-sm rounded-full w-10 h-10 grid place-items-center hover:bg-white"
                 aria-label="Siguiente"
               >
                 ›
@@ -158,7 +158,7 @@ export default function Testimonios({ items = [], intervalMs = 4500 }) {
                 type="button"
                 onClick={() => setIndex(i)}
                 className={`h-2 rounded-full transition-all ${
-                  i === index ? "w-8 bg-[#7B5D69]" : "w-2 bg-gray-300"
+                  i === index ? "w-8 bg-[#27532f]" : "w-2 bg-gray-300"
                 }`}
                 aria-label={`Ir al grupo ${i + 1}`}
               />

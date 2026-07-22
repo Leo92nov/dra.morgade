@@ -11,7 +11,7 @@ export default function Footer() {
                                     lg:w-[50%]
                                     2xl:w-[33%] 
                 ">
-                    <img className="w-20 h-20 mt-2" src="/Logos/logoVMNF.webp" alt="" />
+                    <img className="w-20 h-20 mt-2" src="/Logos/isoVM.webp" alt="" />
                     <h2 className="text-white pt-2 font-montserrat">Dra. Verónica Morgade</h2>
                     <h2 className="text-white pt-2 font-montserrat">Mendoza 1667 Quo Container Center</h2>
                     <h2 className="text-white pt-2 font-montserrat">Ingeniero Maschwitz CP:1623</h2>
@@ -43,7 +43,7 @@ export default function Footer() {
                                    xl:w-[50%]xl:flex xl:flex-col xl:mx-[30%]
                                    2xl:flex 2xl:flex-col 2xl:items-start 2xl:m-0 2xl:w-[100%]
                                    ">
-                        <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700 font-montserrat hover:text-[#7B5D69] 
+                        <li className="w-[100%] 2xl:w-auto h-10 relative inline-block text-gray-700 font-montserrat hover:text-[#27532f]
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -51,7 +51,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#7B5D69]
+                            before:bg-[#27532f]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -69,7 +69,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#7B5D69]
+                            before:bg-[#27532f]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -79,7 +79,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li className="w-[100%] 2xl:w-auto h-10 relative font-montserrat inline-block text-gray-700 
-                            hover:text-[#7B5D69] 
+                            hover:text-[#27532f] 
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -87,7 +87,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#7B5D69]
+                            before:bg-[#27532f]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0
@@ -97,7 +97,7 @@ export default function Footer() {
                             </a>
                         </li>
                         <li className="w-[100%] 2xl:w-auto h-10 relative font-montserrat inline-block text-gray-700
-                            hover:text-[#7B5D69] 
+                            hover:text-[#27532f]
                             transition-colors duration-300
                             before:content-['']
                             before:absolute
@@ -105,7 +105,7 @@ export default function Footer() {
                             before:bottom-0
                             before:h-[2px]
                             before:w-0
-                            before:bg-[#7B5D69]
+                            before:bg-[#27532f]
                             before:transition-all
                             before:duration-300
                             hover:before:left-0

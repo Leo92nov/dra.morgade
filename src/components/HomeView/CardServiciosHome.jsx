@@ -27,7 +27,7 @@ export default function CardServiciosHome({ img, servicio, descripcion }) {
 
                 <h2 className="text-center mt-2 text-xl font-garamond">{servicio}</h2>
 
-                <div className="w-[50%] border border-[#D6CBCB] mx-auto my-4"></div>
+                <div className="w-[50%] border border-[#27532f] mx-auto my-4"></div>
 
                 <p className="font-montserrat text-sm">{descripcion}</p>
 
@@ -35,8 +35,8 @@ export default function CardServiciosHome({ img, servicio, descripcion }) {
                     <button
                         className="
                             cursor-pointer mt-4 text-center
-                            border border-[#D6CBCB] font-garamond text-lg
-                            hover:text-white hover:bg-[#7B5D69]
+                            border border-gray-500 font-garamond text-lg
+                            hover:text-white hover:bg-[#27532f] hover:border-none
                             rounded-2xl p-1
                             hover:scale-105
                             transition-transform duration-300

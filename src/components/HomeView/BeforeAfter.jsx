@@ -70,12 +70,12 @@ export default function BeforeAfterElfsight({ antes, despues, initial = 50 }) {
 
         {/* Labels */}
         <div className="absolute top-4 left-4 z-20">
-          <span className="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-black/45 text-white backdrop-blur">
+          <span className="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#27532f] text-white backdrop-blur">
             Antes
           </span>
         </div>
         <div className="absolute top-4 right-4 z-20">
-          <span className="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-black/45 text-white backdrop-blur">
+          <span className="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-widest bg-[#27532f] text-white backdrop-blur">
             Después
           </span>
         </div>

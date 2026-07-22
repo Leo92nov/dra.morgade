@@ -8,7 +8,7 @@ export default function ContactView() {
             <div className="h-16" />
 
             <header className="text-center px-4">
-                <h1 className="text-3xl text-[#7B5D69] font-garamond font-semibold py-6">
+                <h1 className="text-3xl text-[#27532f] font-garamond font-semibold py-6">
                     Acercate a conocernos
                 </h1>
 
@@ -29,7 +29,7 @@ export default function ContactView() {
                     <div className="rounded-2xl shadow-md border border-gray-200 bg-white p-10 flex flex-col justify-between">
 
                         <div>
-                            <h2 className="text-2xl text-[#7B5D69] font-garamond font-semibold mb-8">
+                            <h2 className="text-2xl text-[#27532f] font-garamond font-semibold mb-8">
                                 Clínica de Nutrición y Estética
                             </h2>
 
@@ -55,7 +55,7 @@ export default function ContactView() {
                                         href="https://wa.me/5491168638712"
                                         target="_blank"
                                         rel="noreferrer"
-                                        className="mt-1 inline-block text-[#7B5D69] underline underline-offset-4 hover:opacity-80 font-montserrat transition"
+                                        className="mt-1 inline-block text-[#27532f] underline underline-offset-4 hover:opacity-80 font-montserrat transition"
                                     >
                                         (+54 11) 15-6863-8712
                                     </a>
@@ -85,7 +85,7 @@ export default function ContactView() {
                                 className="
                                             h-12 px-6 font-garamond
                                             flex items-center justify-center
-                                            bg-[#7B5D69]
+                                            bg-[#27532f]
                                             text-white
                                             rounded-xl
                                             hover:scale-105
@@ -102,10 +102,10 @@ export default function ContactView() {
                                 className="
                                            h-12 px-6 font-garamond
                                            flex items-center justify-center
-                                           border border-[#7B5D69]
+                                           border border-gray-400
                                            text-black
                                            rounded-xl
-                                           hover:bg-[#7B5D69] hover:text-white
+                                           hover:bg-[#27532f] hover:text-white
                                            transition-colors duration-300
                                        "
                             >

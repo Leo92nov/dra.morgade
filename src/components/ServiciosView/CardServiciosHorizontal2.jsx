@@ -23,7 +23,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
             flex flex-col justify-center
             order-2 lg:order-1
           ">
-            <div className="border-b border-[#7B5D69] mb-6">
+            <div className="border-b border-[#27532f] mb-6">
               <h2 className="font-garamond text-2xl 
                              sm:text-xl 
                              xl:text-2xl">{titulo}</h2>
@@ -36,7 +36,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
             <section className="flex justify-between 2xl:gap-16">
               <button className="mt-6 inline-flex items-center justify-center
                                   h-12 px-6 w-[auto]
-                                  text-white bg-[#7B5D69] rounded-xl
+                                  text-white bg-[#27532f] rounded-xl
                                   hover:scale-105 transition-transform duration-300
                                   w-[12rem]">
                 <a href={`https://wa.me/5491168638712?text=¡Hola%20Dra.%20Morgade!%20Me%20gustaría%20agendar%20una%20consulta%20para%20${titulo}`}>
@@ -52,7 +52,7 @@ export default function CardServiciosHorizontal2({ img, titulo, parrafo, to }) {
                 <button className="
                           mt-6 inline-flex items-center justify-center
                           h-12 px-6 cursor-pointer w-[auto]
-                          text-white bg-[#7B5D69] rounded-xl
+                          text-white bg-[#27532f] rounded-xl
                           hover:scale-105 transition-transform duration-300
                           w-[12rem]">
 

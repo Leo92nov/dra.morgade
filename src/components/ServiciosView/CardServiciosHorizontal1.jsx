@@ -42,7 +42,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
             3xl:w-2/4 3xl:h-full
             flex flex-col justify-center">
 
-            <div className="border-b border-[#7B5D69] mb-6">
+            <div className="border-b border-[#27532f] mb-6">
               <h2 className="font-garamond text-2xl 
                              sm:text-xl 
                              xl:text-2xl">{titulo}</h2>
@@ -59,7 +59,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
                 <button className="
                 mt-6 inline-flex items-center justify-center
                 h-12 px-6 cursor-pointer w-[120px] 2xl:w-[auto]
-                text-white bg-[#7B5D69] rounded-xl
+                text-white bg-[#27532f] rounded-xl
                 hover:scale-105 transition-transform duration-300
                 w-[12rem]">
 
@@ -79,7 +79,7 @@ export default function CardServiciosHorizontal1({ img, titulo, parrafo, to }) {
                 <button className="
                           mt-6 inline-flex items-center justify-center
                           h-12 px-6 cursor-pointer w-[120px]
-                          text-white bg-[#7B5D69] rounded-xl
+                          text-white bg-[#27532f] rounded-xl
                           hover:scale-105 transition-transform duration-300
                           w-[12rem]">
 
