@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import NavBarButton from "./NavBarButton";
 import NavBarButtonServicios from "./NavBarButtonServicios";
 import { servicios } from "../../asyncMock";
@@ -8,7 +8,8 @@ export default function NavBar() {
   const [show, setShow] = useState(true);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
-
+const location = useLocation();
+const isHome = location.pathname === "/";
   const lastScrollRef = useRef(0);
 
   const categorias = useMemo(() => {
@@ -49,10 +50,12 @@ export default function NavBar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full bg-white shadow-md transition-transform duration-300 ${
-        show ? "translate-y-0" : "-translate-y-full"
-      }`}
-    >
+  className={`sticky top-0 z-50 w-full bg-transparent transition-transform duration-300 ${
+    !isHome ? "shadow-md border-b border-gray-200" : ""
+  } ${
+    show ? "translate-y-0" : "-translate-y-full"
+  }`}
+>
       <nav className="w-full mx-auto">
 
         {/* MOBILE */}
@@ -140,17 +143,37 @@ export default function NavBar() {
         </section>
 
         {/* DESKTOP */}
-        <section className="hidden lg:block w-full">
-          <div className="w-full flex justify-center items-center gap-16">
-            <NavBarButton nombre="Inicio" to="/" darkText />
-            <NavBarButtonServicios nombre="Servicios" to="/Servicios" darkText />
-            <Link to="/">
-              <img className="h-[100px]" src="/Logos/logonv.webp" alt="" />
-            </Link>
-            <NavBarButton nombre="Nosotras" to="/Nosotras" darkText />
-            <NavBarButton nombre="Contacto" to="/Contacto" darkText />
-          </div>
-        </section>
+<section className="hidden lg:block w-full">
+  <div className="w-full flex justify-center items-center gap-16">
+    <NavBarButton
+      nombre="Inicio"
+      to="/"
+      darkText={!isHome}
+    />
+
+    <NavBarButtonServicios
+      nombre="Servicios"
+      to="/Servicios"
+      darkText={!isHome}
+    />
+
+    <Link to="/">
+      <img className="h-[100px]" src="/Logos/logonv.webp" alt="" />
+    </Link>
+
+    <NavBarButton
+      nombre="Nosotras"
+      to="/Nosotras"
+      darkText={!isHome}
+    />
+
+    <NavBarButton
+      nombre="Contacto"
+      to="/Contacto"
+      darkText={!isHome}
+    />
+  </div>
+</section>
 
       </nav>
     </header>

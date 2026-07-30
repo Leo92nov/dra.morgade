@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const slides = [
-    { img: "/CTA/CTA1.webp", title: "Realza tu belleza natural.", subtitle: "Tratamientos faciales avanzados." },
+    { img: "/CTA/CTA1.webp", title: "Clinica Morgade.", subtitle: "Tratamientos faciales avanzados." },
     { img: "/CTA/CTA2.webp", title: "Resultados visibles.", subtitle: "Tecnología estética de última generación." },
     { img: "/CTA/CTA3.webp", title: "Cuidado personalizado.", subtitle: "Planes diseñados para vos." },
     { img: "/CTA/CTA4.webp", title: "Rejuvenecimiento facial.", subtitle: "Resultados naturales." },
@@ -157,7 +157,9 @@ export default function CarruselTop() {
                         md:h-[500px]
                         xl:h-[800px]
                         2xl:h-[800px] overflow-hidden
-                        3xl:h-[850px]">
+                        3xl:h-[850px]
+                        overflow-hidden
+                        lg:-mt-[100px]">
 
                 {/* Slides */}
                 {slides.map((slide, index) => (

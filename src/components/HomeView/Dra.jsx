@@ -112,7 +112,7 @@ export default function Dra() {
         <div className="relative overflow-hidden h-[520px] rounded-2xl">
           <div className={fondoClasses} />
           <div className="relative z-10 h-full w-full flex items-end justify-end">
-            <img className="h-full w-auto object-contain" src="/dreNB.webp" alt="" />
+            <img className="h-full w-auto object-contain" src="/NF.png" alt="" />
           </div>
         </div>
 
@@ -192,7 +192,7 @@ export default function Dra() {
               showListones ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6",
             ].join(" ")}
           >
-            <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
+            <div className="flex lg:flex-col lg:mt-20 xl:m-0 gap-8 xl:gap-28 xl:items-center xl:justify-center">
               <Listones
                 titulo="Calidad Asegurada"
                 img="/listones/seguridad.webp"
@@ -205,7 +205,7 @@ export default function Dra() {
               />
             </div>
 
-            <div className="flex lg:flex-col gap-8 xl:items-center xl:justify-center">
+            <div className="flex lg:flex-col gap-8 xl:m-0 xl:gap-28 xl:items-center xl:justify-center">
               <Listones
                 titulo="Productos premium"
                 img="/listones/crema.webp"
@@ -221,7 +221,7 @@ export default function Dra() {
 
           {/* IMAGEN */}
           <div className="h-auto flex lg:w-[60%] xl:w-[45%] xl:justify-end xl:items-end">
-            <img className="h-full w-full object-contain" src="/dreNB.webp" alt="" />
+            <img className="h-full w-full object-contain" src="/NF1.png" alt="" />
           </div>
         </div>
       </div>
