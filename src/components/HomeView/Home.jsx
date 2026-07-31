@@ -67,13 +67,29 @@ export default function Home() {
   return (
     <>
       <CarruselTop />
+    <div className="mt-16 mb-[-40px] flex items-center gap-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
 
-    <h1 className="text-center text-3xl font-garamond mt-16 mb-[-40px] bg-gray-100">Dra. Verónica Morgade – Medicina Estética y Antiaging - Ingeniero Maschwitz</h1>
+  <h1 className="text-center text-3xl font-garamond">
+    Dra. Verónica Morgade – Medicina Estética y Antiaging - Ingeniero Maschwitz
+  </h1>
+
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
       <section className="my-16">
         <Dra />
       </section>
 
-      <h2 className="text-center font-garamond text-3xl my-8 bg-gray-100">Nuestros tratamientos</h2>
+
+      <div className="my-8 flex items-center justify-center gap-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+
+  <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+    Nuestros tratamientos
+  </h2>
+
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
       <section className="flex justify-center gap-12 flex-wrap xl:w-[80%] lg:w-[90%] mx-auto">
         <CardServiciosHome img="/HomeCards/facial.webp" servicio="Estética Facial" descripcion=" Se centra en la restauración, rejuvenecimiento y armonización del rostro mediante procedimientos mínimamente invasivos. Su objetivo es optimizar la estructura cutánea y los volúmenes faciales, tratando signos de envejecimiento como arrugas y flacidez, pero siempre priorizando la naturalidad y la salud de la barrera cutánea."/>
         <CardServiciosHome img="/HomeCards/corporal.webp" servicio="Estética Corporal" descripcion=" Es el conjunto de protocolos terapéuticos diseñados para modelar la silueta y mejorar la calidad de los tejidos del cuerpo. Abarca desde la reducción de adiposidad localizada y el tratamiento de la celulitis hasta la reafirmación dérmica, combinando tecnología de vanguardia con un enfoque integral en la composición corporal." />
@@ -83,15 +99,27 @@ export default function Home() {
       </section>
 
       <CarruselMarcas />
+<div className="mt-16 mb-10 flex items-center justify-center gap-6 px-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
 
-      <h2 className="text-center text-3xl font-garamond mt-18 bg-gray-100">
-        Algunos de nuestros resultados
-      </h2>
+  <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+    Algunos de nuestros resultados
+  </h2>
 
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
       <CarruselAntesDespues></CarruselAntesDespues>
 
       <section className="mt-20">
-        <h2 className="text-center text-3xl mb-10 bg-gray-100 font-garamond">Testimonios de nuestros pacientes</h2>
+        <div className="mt-16 mb-10 flex items-center justify-center gap-6 px-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+
+  <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+    Testimonios de nuestros pacientes
+  </h2>
+
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
 
         <Testimonios items={testimoniosData} />
       </section>

@@ -32,9 +32,16 @@ export default function CarruselMarcas() {
 
   return (
     <>
-      <h2 className="text-center mt-8 2xl:mt-20 text-3xl bg-gray-100 font-garamond">
-        Utilizamos solo marcas líderes en su campo
-      </h2>
+    <div className="mt-16 mb-10 flex items-center justify-center gap-6 px-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+
+  <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+    Utilizamos solo marcas líderes en su campo
+  </h2>
+
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
+
 
       <section className="w-full max-w-5xl mx-auto my-12 overflow-hidden">
         <div
