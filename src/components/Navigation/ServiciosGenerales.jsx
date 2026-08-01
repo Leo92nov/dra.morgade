@@ -27,9 +27,15 @@ export default function ServiciosGenerales() {
 
   return (
     <>
-      <h1 className="font-garamond text-3xl text-center mt-12">
-        Nuestros servicios de {titulo}
-      </h1>
+      <div className="mt-12 flex items-center justify-center gap-6">
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+
+  <h1 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+    Nuestros servicios de {titulo}
+  </h1>
+
+  <span className="h-px flex-1 bg-[#d8d0bf]" />
+</div>
 
       <section className="w-[90%] mx-auto flex justify-center flex-wrap gap-8 my-12 lg:w-[80%]">
         {serviciosFiltrados.map((s) => (
@@ -39,7 +45,7 @@ export default function ServiciosGenerales() {
                        md:w-[55%] lg:w-[35%] 2xl:w-[25%]"
           >
             <div className="w-full h-[300px] mb-2">
-              <img className="w-full h-full object-fill rounded-t-xl" src="/asd.png" alt="" />
+              <img className="w-full h-full object-fill rounded-t-xl" src={s.img} alt="" />
             </div>
 
             <h2 className="text-xl font-garamond text-center pb-2 text-[#27532f]">

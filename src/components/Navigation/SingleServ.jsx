@@ -44,7 +44,7 @@ export default function SingleServ() {
                                 md:w-2/5
                                 w-full
                                 ">
-                        <img className="2xl:w-[400px] 2xl:h-[320px] object-fill rounded-2xl" src="/asd.png" alt="" />
+                        <img className="2xl:w-[400px] 2xl:h-[320px] object-fill rounded-2xl" src={servicioUnico.img} alt="" />
                     </div>
 
                 </article>

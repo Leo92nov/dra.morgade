@@ -28,10 +28,11 @@ const pilares = [
 ];
 
 const formacion = [
-  "Médica especialista en Dermatología",
-  "Formación en Medicina Estética",
+  "Médica especialista en Estética",
+  "Medica Especialista en Medicina Interna",
+  "Formación en Nutrición y descenso de peso",
   "Especialización en Medicina Funcional",
-  "Capacitación en tratamientos dermatológicos integrales",
+  "Diplomatura en Logevidad Saludable y calidad de vida",
 ];
 
 export default function NosotrasView() {

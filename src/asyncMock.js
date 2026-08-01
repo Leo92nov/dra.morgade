@@ -6,7 +6,7 @@ export const servicios = [
         subservicio: 'Toxina botulínica: Tercio Superior',
         descripcion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión',
         explicacion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión, logrando suavizar líneas existentes y previniendo que se profundicen, otorgando un aspecto más descansado y natural, sin perder expresión. Además puede utilizarse para tratar bruxismo, rosácea, sonrisa gingival, bandas platismales, definición de óvalo facial, DAO, mentón empedrado, e hiperhidrosis (axilar, palmar, plantar). El efecto comienza a notarse a los pocos días y dura aproximadamente 4 a 6 meses.',
-        img:'',
+        img:'/servicios/facial/TBTS.webp',
         video:"https://www.youtube.com/embed/XXjrG7Wy8sE?si=c-Zp2Ix_xqoH6Q-E"
     },
     {id: 1, 
@@ -15,7 +15,7 @@ export const servicios = [
         subservicio: 'Toxina botulínica: Sonrisa Gingival',
         descripcion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión',
         explicacion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión, logrando suavizar líneas existentes y previniendo que se profundicen, otorgando un aspecto más descansado y natural, sin perder expresión. Además puede utilizarse para tratar bruxismo, rosácea, sonrisa gingival, bandas platismales, definición de óvalo facial, DAO, mentón empedrado, e hiperhidrosis (axilar, palmar, plantar). El efecto comienza a notarse a los pocos días y dura aproximadamente 4 a 6 meses.',
-        img:'',
+        img:'/servicios/facial/TBSG.webp',
         video:"https://www.youtube.com/embed/XXjrG7Wy8sE?si=c-Zp2Ix_xqoH6Q-E"
     },
     {id: 2, 
@@ -24,7 +24,7 @@ export const servicios = [
         subservicio: 'Toxina botulínica: Bruxismo',
         descripcion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión',
         explicacion: 'La toxina botulínica es una neurotoxina la cuál actúa relajando temporalmente los músculos responsables de las arrugas de expresión, logrando suavizar líneas existentes y previniendo que se profundicen, otorgando un aspecto más descansado y natural, sin perder expresión. Además puede utilizarse para tratar bruxismo, rosácea, sonrisa gingival, bandas platismales, definición de óvalo facial, DAO, mentón empedrado, e hiperhidrosis (axilar, palmar, plantar). El efecto comienza a notarse a los pocos días y dura aproximadamente 4 a 6 meses.',
-        img:'',
+        img:'/servicios/facial/TBB.webp',
         video:"https://www.youtube.com/embed/XXjrG7Wy8sE?si=c-Zp2Ix_xqoH6Q-E"
     },
     {id: 3, 
@@ -34,7 +34,7 @@ export const servicios = [
         descripcion: 'El relleno de labios es un tratamiento inyectable que permite dar volumen, mejorar el contorno, corregir asimetrías y aportar hidratación profunda. Se utiliza ácido hialurónico, una sustancia biocompatible y reabsorbible que el cuerpo produce de manera natural.',
         explicacion: 'El relleno de labios es un tratamiento inyectable que permite dar volumen, mejorar el contorno, corregir asimetrías y aportar hidratación profunda. Se utiliza ácido hialurónico, una sustancia biocompatible y reabsorbible que el cuerpo produce de manera natural. El procedimiento se realiza en consultorio, con anestesia tópica para mayor confort. Los resultados son inmediatos y se ajustan a los deseos de cada paciente: desde un efecto muy natural hasta un mayor volumen. Además de aumentar tamaño, mejora la definición del arco de cupido y la proyección del labio.',
         video:"https://www.youtube.com/embed/fkJ9tg4GTVQ?si=57Je01Q-Pgd5XYAW",
-        img:''
+        img:'/servicios/facial/RAHL.webp'
     },
     {id: 4, 
         rama: "Estética Facial",
@@ -42,7 +42,7 @@ export const servicios = [
         subservicio: 'Rellenos de ácido hialurónico: Pómulos',
         descripcion: 'La mesoterapia facial consiste en la aplicación de microinyecciones intradérmicas con activos específicos para rejuvenecer, hidratar y mejorar la calidad de la piel.',
         explicacion: 'PDRN (Polidesoxirribonucleótidos)Estimula regeneración celular profunda, Aumenta producción de colágeno, Mejora cicatrización, Reduce inflamación, Mejora textura y luminosidad. NCTF (New Cellular Treatment Factor): Hidrata profundamente, Revitaliza piel apagada, Mejora tono y luminosidad, Atenúa líneas finas, Previene envejecimiento ',
-        img:''
+        img:'/servicios/facial/RAHP.webp'
     },
     {id: 5, 
         rama: "Estética Facial",
@@ -50,7 +50,7 @@ export const servicios = [
         subservicio: 'Rellenos de ácido hialurónico: Mentón',
         descripcion: 'Es un bioestimulador dérmico a base de hidroxiapatita de calcio (CaHA) que no solo aporta volumen inmediato, sino que estimula la producción natural de colágeno.',
         explicacion: '1️⃣ Efecto inmediato: Aporta volumen y mejora la estructura de la zona tratada. 2️⃣ Efecto biológico progresivo: Estimula los fibroblastos para producir colágeno nuevo, logrando firmeza sostenida en el tiempo. Con el paso de los meses, el gel se reabsorbe y queda el colágeno generado por el propio cuerpo',
-        img:''
+        img:'/servicios/facial/RHIM.webp'
     },
     {id: 6, 
         rama: "Estética Facial",
@@ -58,7 +58,7 @@ export const servicios = [
         subservicio: 'Rellenos de ácido hialurónico: Ojeras',
         descripcion: 'El relleno de labios es un tratamiento estético mínimamente invasivo que utiliza ácido hialurónico para mejorar volumen, definición e hidratación de los labios, respetando la armonía facial.',
         explicacion: 'Es una sustancia naturalmente presente en el cuerpo que: Aporta hidratación, Retiene agua, Da volumen, Mejora elasticidad, Al aplicarse en labios, permite un resultado natural y moldeable.',
-        img:''
+        img:'/servicios/facial/RAHO.webp'
     },
     {id: 7, 
         rama: "Estética Facial",
@@ -66,7 +66,7 @@ export const servicios = [
         subservicio: 'Sunekos',
         descripcion: 'Es un bioestimulador dérmico inyectable compuesto por ácido hialurónico no reticulado combinado con aminoácidos específicos, que se utiliza para la regeneración de la matriz extra celular, ayudando a estimular la síntesis fisiológica de colágeno tipo I y III y elastina.',
         explicacion: 'Es un bioestimulador dérmico inyectable compuesto por ácido hialurónico no reticulado combinado con aminoácidos específicos, que se utiliza para la regeneración de la matriz extra celular, ayudando a estimular la síntesis fisiológica de colágeno tipo I y III y elastina. Es considerado uno de los bioestimuladores más seguros para el área del párpado  inferior,  otorgando mejoría significativa en la elasticidad cutánea, reduciendo arrugas perioculares y aumentando la hidratación dérmica.',
-        img:''
+        img:'/servicios/facial/sunekos.webp'
     },
     {id: 8, 
         rama: "Estética Facial",
@@ -74,7 +74,7 @@ export const servicios = [
         subservicio: 'Radiesse',
         descripcion: 'Es un bioestimulador de colágeno muy efectivo y duradero',
         explicacion: 'Radiesse es un relleno dérmico y bioestimulador de colágeno compuesto por hidroxiapatita de calcio, la cual,  reafirma la piel, redefine el contorno facial  y repone el volumen perdido. Los resultados son progresivos y pueden durar más de un año dependiendo de cada paciente.',
-        img:'',
+        img:'/servicios/facial/radiesse.webp',
         video:"https://www.youtube.com/embed/_7AAKW3lEPg?si=dfO6v3Q6mFoLU6NI"
     },
     {id: 9, 
@@ -83,7 +83,7 @@ export const servicios = [
         subservicio: 'Sculptra ',
         descripcion: 'Sculptra es un bioestimulador que no rellena directamente, sino que estimula la producción natural de colágeno. Su componente principal (ácido poli-L-láctico) activa un proceso gradual de regeneración de la piel.',
         explicacion: 'Sculptra es un bioestimulador que no rellena directamente, sino que estimula la producción natural de colágeno. Su componente principal (ácido poli-L-láctico) activa un proceso gradual de regeneración de la piel. Está indicado para tratar flacidez facial y corporal, mejorar firmeza y recuperar volumen perdido con el paso del tiempo',
-        img:'',
+        img:'/servicios/facial/sculptra.webp',
         video:"https://www.youtube.com/embed/CwxHj6_xAEM?si=En-B7Y1oT4cADqKR"
     },
     {id: 10, 
@@ -92,7 +92,7 @@ export const servicios = [
         subservicio: 'HarmonyCa',
         descripcion: 'Es un filler híbrido que combina ácido hialurónico reticulado con hidroxiapatita de calcio, permitiendo un volumen inmediato además de una bioestimulación de colágeno en un mismo producto',
         explicacion: 'Es un filler híbrido que combina ácido hialurónico reticulado con hidroxiapatita de calcio, permitiendo un volumen inmediato además de una bioestimulación de colágeno en un mismo producto. Este procedimiento inyectable ayuda a mejorar la firmeza de la piel, redefinir el contorno facial y restaurar la estructura del rostro, donde sus efectos son naturales y progresivos, pudiendo durar hasta 18-24 meses.',
-        img:''
+        img:'/servicios/facial/harmony.webp'
     },
     {id: 11, 
         rama: "Estética Facial",
@@ -100,7 +100,7 @@ export const servicios = [
         subservicio: 'Exosomas',
         descripcion: 'Los exosomas son vesículas celulares que actúan como mensajeros biológicos. En estética se utilizan para estimular la regeneración celular profunda.',
         explicacion: 'Los exosomas son vesículas celulares que actúan como mensajeros biológicos. En estética se utilizan para estimular la regeneración celular profunda. Mejoran calidad de piel, firmeza, luminosidad y aceleran procesos de reparación. También potencian tratamientos capilares ayudando a fortalecer el folículo y estimular crecimiento. Es una terapia innovadora que se suele combinar con otros procedimientos para potenciar resultados.',
-        img:'',
+        img:'/servicios/facial/exosomas.webp',
         video:"https://www.youtube.com/embed/otDZZ2sL_Zk?si=uhf45KnrMbQKArG5"
     },
     {id: 12, 
@@ -109,7 +109,7 @@ export const servicios = [
         subservicio: 'Hilos tensores PDO',
         descripcion: 'Son hilos reabsorbibles utilizados para producir rejuvenecimiento facial mediante efecto tensor y bio estimulación dérmica.',
         explicacion: 'Son hilos reabsorbibles utilizados para producir rejuvenecimiento facial mediante efecto tensor y bio estimulación dérmica. No reemplazan una cirugía, pero ayudan a mejorar calidad de piel y aportar efecto tensor progresivo',
-        img:'',
+        img:'/servicios/facial/hilos.webp',
         video:"https://www.youtube.com/embed/8jleo2LSjb4?si=bl4R5d2uUrmE211U"
     },
     {id: 13, 
@@ -118,7 +118,7 @@ export const servicios = [
         subservicio: 'Profhilo',
         descripcion: 'Es un inyectable de ácido hialurónico ultrapuro diseñado para bio remodelación cutánea.',
         explicacion: 'Es un inyectable de ácido hialurónico ultrapuro diseñado para bio remodelación cutánea. Su composición basada en la mezcla de ácido hialurónico de bajo y alto peso molecular sin el agregado de agentes reticulantes, permite su difusión amplia y lenta en la dermis durante semanas, activando procesos de regeneración cutánea. Es un tratamiento ideal para personas que presentan flacidez leve, deshidratación, pérdida de elasticidad o pieles fotoenvejecidas, y puede aplicarse en zonas cómo rostro, cuellos, escote y manos. ',
-        img:''
+        img:'/servicios/facial/profilo.webp'
     },
     {id: 14, 
         rama: "Estética Facial",
@@ -126,7 +126,7 @@ export const servicios = [
         subservicio: 'Mesoterapia PDRN y NCTF',
         descripcion: 'La Mesoterapia Facial consiste en la aplicación de pequeñas cantidades de activos específicos (vitaminas, antioxidantes, ácido hialurónico, minerales) directamente en la piel mediante microinyecciones.',
         explicacion: 'La Mesoterapia Facial consiste en la aplicación de pequeñas cantidades de activos específicos (vitaminas, antioxidantes, ácido hialurónico, minerales) directamente en la piel mediante microinyecciones. Aporta hidratación profunda, mejora la luminosidad y revitaliza pieles opacas o deshidratadas. Es ideal como tratamiento preventivo o complemento de otros procedimientos. El resultado es una piel más fresca, luminosa y saludable.',
-        img:'',
+        img:'/servicios/facial/mesop.webp',
         video:"https://www.youtube.com/embed/0pNRQ3oGm0o?si=f0f2XJv7gRg9sq12"
     },
     {id: 15, 
@@ -135,7 +135,7 @@ export const servicios = [
         subservicio: 'Microneedling: Dermaglow e Hidralips',
         descripcion: 'La depilación definitiva con tecnología láser es un tratamiento seguro y eficaz que reduce de manera progresiva y duradera el crecimiento del vello.',
         explicacion: 'El láser emite una luz que: Es absorbida por la melanina del vello, Se transforma en calor, Destruye selectivamente el folículo, Reduce el crecimiento futuro. Solo el vello en fase de crecimiento responde al tratamiento, por eso se realizan varias sesiones. Zonas más frecuentes, Rostro, Axilas, Piernas, Cavado, Espalda, Abdomem, Brazos',
-        img:''
+        img:'/servicios/facial/microneed.webp'
     },
     {id: 16, 
         rama: "Estética Facial",
@@ -143,7 +143,7 @@ export const servicios = [
         subservicio: 'Peeling',
         descripcion: 'Es uno de los tratamientos más clásicos y efectivos en estética para renovar la piel y mejorar múltiples alteraciones cutáneas. ',
         explicacion: 'Es uno de los tratamientos más clásicos y efectivos en estética para renovar la piel y mejorar múltiples alteraciones cutáneas. Consiste en la aplicación de sustancias químicas sobre la piel para provocar una exfoliación controlada. De esta manera, se genera una renovación de la piel, eliminación de capas dañadas, y estimulación de colágeno. Cada piel es única, por eso el protocolo se diseña de forma personalizada, utilizando diferentes activos y concentraciones, priorizando resultados naturales y el cuidado integral de la piel.',
-        img:''
+        img:'/servicios/facial/peeling.webp'
     },
     {id: 17, 
         rama: "Estética Facial",
@@ -151,7 +151,7 @@ export const servicios = [
         subservicio: 'Higiene',
         descripcion: 'Alidya es un tratamiento inyectable diseñado específicamente para mejorar la celulitis y la calidad de la piel corporal.',
         explicacion: 'La celulitis se asocia a: Retención de líquidos, Alteraciones en la microcirculación, Inflamación local, Fibrosis. Alidya ayuda a: Neutralizar toxinas, Mejorar el drenaje, Reducir la inflamación, Optimizar la oxigenación del tejido, El resultado es una piel más uniforme y firme.',
-        img:''
+        img:'/servicios/facial/limpieza.webp'
     },
     {id: 18, 
         rama: "Estética Facial",
@@ -159,7 +159,7 @@ export const servicios = [
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'El PRP (Plasma Rico en Plaquetas) es un tratamiento regenerativo que utiliza la propia sangre del paciente. Se extrae una pequeña muestra, se procesa para concentrar las plaquetas y luego se aplica en la zona a tratar.',
         explicacion: 'El PRP (Plasma Rico en Plaquetas) es un tratamiento regenerativo que utiliza la propia sangre del paciente. Se extrae una pequeña muestra, se procesa para concentrar las plaquetas y luego se aplica en la zona a tratar. Las plaquetas liberan factores de crecimiento que estimulan colágeno, elastina y regeneración celular. Mejora textura, luminosidad, firmeza y también se utiliza para fortalecer el cabello.',
-        img:'',
+        img:'/servicios/facial/PRP.webp',
         video:"https://www.youtube.com/embed/qx9fDqrF9JY?si=k0Ve3WMoJYTa0IPX"
     },
     {id: 19,
@@ -168,7 +168,7 @@ export const servicios = [
         subservicio: 'Enzimas',
         descripcion: 'Las enzimas lipolíticas son sustancias que se aplican mediante microinyecciones en zonas con grasa localizada como abdomen, flancos, papada o pantalón de montar.',
         explicacion: 'Las enzimas lipolíticas son sustancias que se aplican mediante microinyecciones en zonas con grasa localizada como abdomen, flancos, papada o pantalón de montar. Actúan favoreciendo la ruptura de las células grasas, que luego son eliminadas de manera natural por el organismo. No reemplazan la baja de peso, sino que ayudan a modelar zonas específicas que no responden a dieta o ejercicio.',
-        img:'',
+        img:'/servicios/corporal/EL.webp',
         video:"https://www.youtube.com/embed/MPsw-Ip8hBs?si=XEK7PSS-0wYjVyhW"
     },
     {id: 20,
@@ -177,7 +177,7 @@ export const servicios = [
         subservicio: 'Alidya',
         descripcion: 'Alidya es un tratamiento médico específico para la celulitis. Actúa sobre una de sus causas principales: la acumulación de toxinas y alteración del tejido subcutáneo.',
         explicacion: 'Alidya es un tratamiento médico específico para la celulitis. Actúa sobre una de sus causas principales: la acumulación de toxinas y alteración del tejido subcutáneo. Se aplica mediante microinyecciones en la zona afectada (muslos, glúteos). Su fórmula ayuda a mejorar la circulación local y el drenaje, favoreciendo la eliminación de sustancias que contribuyen al aspecto “piel de naranja”. Se indican varias sesiones según el grado de celulitis. La piel se observa más uniforme y con mejor textura de forma progresiva.',
-        img:'',
+        img:'/servicios/corporal/A.webp',
         video:"https://www.youtube.com/embed/QqvBCwzVYcw?si=ia1miUhS2HgHFc0T"
     },
     {id: 21,
@@ -186,7 +186,7 @@ export const servicios = [
         subservicio: 'Carboxiterapia',
         descripcion: 'La carboxiterapia consiste en la aplicación de dióxido de carbono medicinal debajo de la piel mediante una aguja muy fina. Este gas mejora la oxigenación de los tejidos y estimula la circulación sanguínea',
         explicacion: 'La carboxiterapia consiste en la aplicación de dióxido de carbono medicinal debajo de la piel mediante una aguja muy fina. Este gas mejora la oxigenación de los tejidos y estimula la circulación sanguínea. Se utiliza para tratar celulitis, flacidez, grasa localizada, estrías y ojeras. Al mejorar el flujo sanguíneo, favorece la producción de colágeno y la regeneración de la piel. Es un tratamiento rápido, ambulatorio y con mínima recuperación.',
-        img:''
+        img:'/servicios/corporal/C.webp'
     },
     {id: 22,
         rama:"Estética Corporal",
@@ -194,7 +194,7 @@ export const servicios = [
         subservicio: 'Hilos PDO glúteos',
         descripcion: 'Es un procedimiento mínimamente invasivo donde se colocan hilos de polidioxanona (PDO) ',
         explicacion: 'Es un procedimiento mínimamente invasivo donde se colocan hilos de polidioxanona (PDO) reabsorbibles para mejorar la flacidez cutánea, generar efecto tensor, estimular la neocolagenogenesis y mejorar la calidad de piel.',
-        img:'',
+        img:'/servicios/corporal/H.webp',
         video:"https://www.youtube.com/embed/4izjvK4n76A?si=Kl7_2xZEQKqmVfxI"
     },
     {id: 23,
@@ -203,7 +203,7 @@ export const servicios = [
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'La toxina botulínica en axilas es un tratamiento indicado para tratar la hiperhidrosis (sudoración excesiva). Reduce significativamente la producción de sudor, mejorando confort y calidad de vida.',
         explicacion: 'La toxina actúa bloqueando temporalmente la señal nerviosa que estimula las glándulas sudoríparas. Esto permite: Disminuir la sudoración excesiva, Reducir humedad constante, Mejorar seguridad y bienestar, No afecta otras funciones del cuerpo ¿Para quién está indicado? Personas con hiperhidrosis axilar, Pacientes que transpiran excesivamente incluso en reposo, Casos donde los antitranspirantes no son suficientes',
-        img:''
+        img:'/servicios/corporal/PRPC.webp'
     },
     {id: 24, 
         rama: "Tratamientos Capilares",
@@ -211,7 +211,7 @@ export const servicios = [
         subservicio: 'Mesoterapia Capilar',
         descripcion: 'Tratamiento que consiste en aplicar activos específicos directamente en el cuero cabelludo para fortalecer el folículo piloso.',
         explicacion: 'Tratamiento que consiste en aplicar activos específicos directamente en el cuero cabelludo para fortalecer el folículo piloso. Ayuda a disminuir la caída, mejorar grosor y estimular el crecimiento del cabello. Es ideal en etapas iniciales de afinamiento capilar o como complemento de otros tratamientos. Se indican sesiones periódicas para mantener resultados, las cuales dependerán del grado de caída de cada paciente. ',
-        img:'',
+        img:'/servicios/capilar/MC.webp',
         video:"https://www.youtube.com/embed/ZiXd9wKManA?si=5PaZg75taRlB6eJg"
     },
     {id: 25, 
@@ -220,7 +220,7 @@ export const servicios = [
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'El Plasma Rico en Plaquetas (PRP) capilar es un tratamiento de bioestimulación que utiliza los propios factores de crecimiento del paciente para fortalecer el cabello y estimular su crecimiento.',
         explicacion: '¿Cómo funciona? Se extrae una pequeña muestra de sangre, se centrifuga para concentrar el plasma rico en plaquetas, el plasma se aplica mediante microinyecciones en el cuero cabelludo. Las plaquetas liberan factores de crecimiento que: Estimulan el folículo pilos,prolongan la fase de crecimiento del cabello, mejoran la vascularización, fortalecen el cabello debilitado ¿Para qué está indicado? Caída del cabello (efluvio), Alopecia androgenética (en etapas iniciales y moderadas), Cabello fino o debilitado, Post trasplante capilar (para mejorar resultados). Resultados: Disminución de la caída en las primeras semanas, Mejora en grosor y calidad del cabello, Mayor densidad progresiva. Se recomienda un protocolo inicial de 3 a 4 sesiones',
-        img:''
+        img:'/servicios/capilar/PRPC.webp'
     },
     {id: 26, 
         rama: "Tratamientos con Láser",
@@ -228,7 +228,7 @@ export const servicios = [
         subservicio: 'Depilación definitiva',
         descripcion: 'Es un tratamiento con tecnología láser que actúa sobre el folículo piloso para eliminar progresivamente el vello.',
         explicacion: 'Es un tratamiento con tecnología láser que actúa sobre el folículo piloso para eliminar progresivamente el vello. Se necesitan varias sesiones porque el láser actúa en la fase de crecimiento del pelo. Con el tiempo, el vello se debilita hasta desaparecer en la mayoría de los casos. Es segura y apta para distintas zonas corporales.',
-        img:'',
+        img:'/servicios/laser/DD.webp',
         video:"https://www.youtube.com/embed/-E6Iybi78xQ?si=WbhRwOEcQB9Z19h-"
     },
     {id: 27, 
@@ -237,7 +237,7 @@ export const servicios = [
         subservicio: 'HIFU 12 D',
         descripcion: 'El HIFU utiliza ultrasonido focalizado de alta intensidad para actuar en capas profundas de la piel sin dañar la superficie.',
         explicacion: 'El HIFU utiliza ultrasonido focalizado de alta intensidad para actuar en capas profundas de la piel sin dañar la superficie. Estimula colágeno y produce un efecto tensor progresivo, mejorando firmeza facial y corporal. Los resultados se desarrollan en los meses posteriores al tratamiento.',
-        img:'',
+        img:'/servicios/laser/H.webp',
         video:"https://www.youtube.com/embed/tFRJ2Vvx5_I?si=851KjJuZmIztJbpQ"
     },
     {id: 28, 
@@ -246,7 +246,7 @@ export const servicios = [
         subservicio: 'Nordlys',
         descripcion: 'Nordlys es una multiplataforma estética de luz pulsada y láser que permite realizar múltiples tratamientos con un solo equipo. ',
         explicacion: 'Nordlys es una multiplataforma estética de luz pulsada y láser que permite realizar múltiples tratamientos con un solo equipo. Permite mejorar manchas, rojeces, poros dilatados, cicatrices de acné y signos de envejecimiento, estimulando además la producción natural de colágeno. Gracias a sus diferentes tecnologías, los tratamientos pueden adaptarse a las necesidades de cada paciente, logrando resultados naturales y progresivos. Es un tratamiento rápido, mínimamente invasivo y con poco tiempo de recuperación, lo que la convierte en una excelente opción para quienes desean mejorar la calidad de la piel y rejuvenecer su apariencia sin procedimientos quirúrgicos.',
-        img:''
+        img:'/servicios/laser/N.webp'
     }, 
         {id: 29,
         rama:"Medicina Funcional",
@@ -254,7 +254,7 @@ export const servicios = [
         subservicio: 'Descenso de peso',
         descripcion: 'Nuestro programa de descenso de peso está diseñado y supervisado por profesionales de la salud, con un enfoque integral, seguro y basado en evidencia.',
         explicacion: 'Nuestro programa de descenso de peso está diseñado y supervisado por profesionales de la salud, con un enfoque integral, seguro y basado en evidencia. Se trata de un tratamiento personalizado que combina acompañamiento médico, educación nutricional, cambios en el estilo de vida y, cuando está indicado, apoyo farmacológico para potenciar los resultados. En determinados casos, se puede indicar tratamiento con medicamentos como semaglutida u otros fármacos de la misma familia, que actúan regulando el apetito y mejorando el metabolismo. Este programa no se basa en dietas restrictivas, sino en la construcción de hábitos saludables y sostenibles en el tiempo. El objetivo es no solo bajar de peso, sino también mejorar la composición corporal, la salud metabólica y el bienestar general. Los resultados son progresivos y seguros, con un acompañamiento continuo que permite sostenerlos a largo plazo.',
-        img:''
+        img:'/servicios/funcional/DP.webp'
     },
         {id: 30, 
         rama: "Medicina Funcional",
@@ -262,7 +262,7 @@ export const servicios = [
         subservicio: 'Pellet de testosterona',
         descripcion: 'El pellet es un pequeño implante subcutáneo que libera testosterona de forma constante durante varios meses. Se indica a personas con déficit hormonal diagnosticado mediante estudios previos.',
         explicacion: 'El pellet es un pequeño implante subcutáneo que libera testosterona de forma constante durante varios meses. Se indica a personas con déficit hormonal diagnosticado mediante estudios previos. Puede mejorar síntomas como cansancio, baja libido, cambios en el estado de ánimo y disminución de masa muscular. Se coloca con anestesia local en un procedimiento sencillo en consultorio',
-        img:'',
+        img:'/servicios/funcional/PT.webp',
         video:"https://www.youtube.com/embed/ZskbM2X_jVw?si=MpMdb7qWfC7g7p6S"
     },
         {id: 31, 
@@ -271,6 +271,6 @@ export const servicios = [
         subservicio: 'Sueroterapia',
         descripcion: 'La sueroterapia consiste en la administración intravenosa de vitaminas, minerales y antioxidantes personalizados según las necesidades del paciente.',
         explicacion: 'La sueroterapia consiste en la administración intravenosa de vitaminas, minerales y antioxidantes personalizados según las necesidades del paciente. Ayuda a mejorar energía, fortalecer el sistema inmune, combatir el estrés y favorecer la recuperación física. Es un tratamiento de bienestar integral. Siempre se realiza con evaluación previa.',
-        img:''
+        img:'/servicios/funcional/ST.webp'
     },
 ]
