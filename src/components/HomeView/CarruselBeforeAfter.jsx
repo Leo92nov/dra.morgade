@@ -8,9 +8,6 @@ export default function CarruselAntesDespues() {
   const items = [
     { antes: "/antes-despues/antes-frente.webp", despues: "/antes-despues/despues-frente.webp" },
     { antes: "/antes-despues/culo-antes.webp", despues: "/antes-despues/culo-despues.webp" },
-    { antes: "/antes-despues/labios-antes.webp", despues: "/antes-despues/labios-despues.webp" },
-    { antes: "/antes-despues/gallo-antes.webp", despues: "/antes-despues/gallo-despues.webp" },
-    { antes: "/antes-despues/alopecia-antes.webp", despues: "/antes-despues/alopecia-despues.webp" },
     { antes: "/antes-despues/b-antes.webp", despues: "/antes-despues/b-despues.webp" },
     { antes: "/antes-despues/g-antes.webp", despues: "/antes-despues/g-despues.webp" },
     { antes: "/antes-despues/l-antes.webp", despues: "/antes-despues/l-despues.webp" },

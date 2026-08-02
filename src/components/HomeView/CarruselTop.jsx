@@ -82,7 +82,7 @@ export default function CarruselTop() {
             {/* ✅ <sm: imagen arriba (solo carrusel) */}
             <figure
                 className="
-          relative w-full h-[320px]
+          relative w-full lg:h-[620px] h-[400px]
           overflow-hidden
           sm:hidden
         "
@@ -92,7 +92,7 @@ export default function CarruselTop() {
                         key={index}
                         src={slide.img}
                         alt=""
-                        className={`absolute inset-0 w-full h-full object-cover object-left 2xl:object-top
+                        className={`absolute inset-0 w-full h-full lg:object-contain object-left 2xl:object-top
                         transition-opacity duration-[4000ms]
                         ${index === current ? "opacity-100" : "opacity-0"}`}
                     />

@@ -115,22 +115,15 @@ function InformacionDoctora() {
 
       <div className="mt-6 space-y-5 text-base leading-8 text-[#404640] sm:text-lg">
         <p>
-          La Dra. Morgade es médica especializada en el cuidado integral de la
-          salud, la estética y el bienestar general. Su trabajo combina el
-          conocimiento médico con una atención cercana, responsable y
-          personalizada.
+          En la clínica de la Dra. Verónica Viviana Morgade, entendemos la estética como el reflejo de una salud óptima. Con una mirada basada en la medicina clínica y funcional, diseñamos tratamientos que potencian tu bienestar desde el interior, logrando resultados reales y duraderos que priorizan el equilibrio, el cuidado médico integral y la vitalidad de tu cuerpo.
         </p>
 
         <p>
-          Su enfoque contempla a cada paciente de manera individual,
-          comprendiendo sus necesidades, sus objetivos y su estilo de vida para
-          diseñar tratamientos que se adapten verdaderamente a cada persona.
+          La Dra. Verónica Viviana Morgade es egresada de la Facultad de Medicina de la Universidad de Buenos Aires con una sólida residencia de cuatro años en Medicina Interna, consolidando más de 25 años de trayectoria en el cuidado de la salud. Con un marcado perfil de actualización científica constante, completó su formación especializada en Metabolismo y Obesidad en prestigiosas instituciones como la Fundación Favaloro, el Hospital Austral y SAOTA.
         </p>
 
         <p>
-          Cree en la prevención, en el poder de los hábitos y en el
-          acompañamiento profesional como pilares fundamentales para construir
-          una salud duradera y mejorar la calidad de vida.
+          Pionera en el abordaje de la Medicina Funcional y la Longevidad Saludable desde 2008, la Dra. Morgade cuenta además con un destacado respaldo internacional en Medicina Estética avalado por la Unión Internacional de Medicina Estética de París (UIME) y la SOLAGEF. Su enfoque clínico integral se enfoca en potenciar la vitalidad del paciente mediante la optimización nutricional, la actividad física y la regulación hormonal, consolidándola como una referente de confianza para quienes buscan un envejecimiento armónico, preventivo y enfocado en la salud real.
         </p>
       </div>
     </article>

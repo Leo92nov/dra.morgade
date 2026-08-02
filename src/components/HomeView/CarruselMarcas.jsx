@@ -32,20 +32,20 @@ export default function CarruselMarcas() {
 
   return (
     <>
-    <div className="mt-16 mb-10 flex items-center justify-center gap-6 px-6">
-  <span className="h-px flex-1 bg-[#d8d0bf]" />
+    <div className="mt-8 mb-26 flex items-center justify-center gap-6 px-6">
+      <span className="h-px flex-1 bg-[#d8d0bf]" />
 
-  <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
-    Utilizamos solo marcas líderes en su campo
-  </h2>
+      <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
+        Utilizamos solo marcas líderes en su campo
+      </h2>
 
-  <span className="h-px flex-1 bg-[#d8d0bf]" />
-</div>
+       <span className="h-px flex-1 bg-[#d8d0bf]" />
+      </div>
 
 
-      <section className="w-full max-w-5xl mx-auto my-12 overflow-hidden">
+      <section className="w-full max-w-5xl mx-auto mb-12 overflow-hidden">
         <div
-          className="flex transition-transform duration-700 ease-in-out"
+          className="flex transition-transform duration-700 ease-in-out mb-12"
           style={{
             transform: `translateX(-${index * 100}%)`,
           }}
