@@ -87,47 +87,13 @@ const isHome = location.pathname === "/";
                   <h2 className="text-xl font-garamond">Inicio</h2>
                 </Link>
 
-                {/* SERVICIOS */}
-                <div>
-                  <button
-                    onClick={() => setServicesOpen((v) => !v)}
-                    className="w-full px-4 py-3 rounded-xl hover:bg-black/5 flex justify-between"
-                  >
-                    <h2 className="text-xl font-garamond">Servicios</h2>
-                    <span className={servicesOpen ? "rotate-180 transition" : "transition"}>
-                      ▾
-                    </span>
-                  </button>
-
-                  <div
-                    className={`transition-all duration-200 overflow-hidden ${
-                      servicesOpen ? "max-h-[400px] opacity-100" : "max-h-0 opacity-0"
-                    }`}
-                  >
-                    <div className="p-2">
-                      <Link
-                        to="/Servicios"
-                        className="block px-3 py-2 font-semibold text-[#27532f]"
-                        onClick={closeAll}
-                      >
-                        Ver todos
-                      </Link>
-
-                      <div className="my-1 h-px bg-[#27532f]/70" />
-
-                      {categorias.map((cat) => (
-                        <Link
-                          key={cat}
-                          to={`/Servicios/${slug(cat)}`}
-                          className="block px-3 py-2 hover:bg-black/5 rounded-xl"
-                          onClick={closeAll}
-                        >
-                          {cat}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                </div>
+                <Link
+  to="/Servicios"
+  className="px-4 py-3 rounded-xl hover:bg-black/5"
+  onClick={closeAll}
+>
+  <h2 className="text-xl font-garamond">Servicios</h2>
+</Link>
 
                 <Link to="/Nosotras" className="px-4 py-3 rounded-xl hover:bg-black/5" onClick={closeAll}>
                   <h2 className="text-xl font-garamond">Nosotras</h2>

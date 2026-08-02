@@ -6,11 +6,7 @@ export default function NavBarButtonServicios({ to, nombre, darkText }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div
-      onMouseEnter={() => setOpen(true)}
-      onMouseLeave={() => setOpen(false)}
-      className="relative inline-block"
-    >
+    <div>
       <Link
         to={to}
         className={`

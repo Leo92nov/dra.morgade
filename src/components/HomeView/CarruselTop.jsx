@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 
 const slides = [
-    { img: "/CTA/CTA1.webp", title: "Clinica Morgade.", subtitle: "Tratamientos faciales avanzados." },
-    { img: "/CTA/CTA2.webp", title: "Resultados visibles.", subtitle: "Tecnología estética de última generación." },
+    { img: "/CTA/CTA1.webp", title: "Dra. Morgade.", subtitle: "Realza tu belleza natural." },
+    { img: "/CTA/CTA2.webp", title: "Resultados naturales.", subtitle: "Tecnología estética a tu servicio." },
     { img: "/CTA/CTA3.webp", title: "Cuidado personalizado.", subtitle: "Planes diseñados para vos." },
-    { img: "/CTA/CTA4.webp", title: "Rejuvenecimiento facial.", subtitle: "Resultados naturales." },
-    { img: "/CTA/CTA5.webp", title: "Tu mejor versión.", subtitle: "Agendá tu consulta hoy." },
+    { img: "/CTA/CTA4.webp", title: "Rejuvenecimiento facial.", subtitle: "Alcanza tu mejor version" },
+    { img: "/CTA/CTA5.webp", title: "Veni a conocernos.", subtitle: "Agendá tu consulta hoy." },
 ];
 
 export default function CarruselTop() {

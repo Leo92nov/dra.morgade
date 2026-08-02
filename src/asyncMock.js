@@ -30,7 +30,7 @@ export const servicios = [
     {id: 3, 
         rama: "Estética Facial",
         servicio: 'Facial',
-        subservicio: 'Rellenos de ácido hialurónico: Labios',
+        subservicio: 'Relleno de hialurónico: Labios',
         descripcion: 'El relleno de labios es un tratamiento inyectable que permite dar volumen, mejorar el contorno, corregir asimetrías y aportar hidratación profunda. Se utiliza ácido hialurónico, una sustancia biocompatible y reabsorbible que el cuerpo produce de manera natural.',
         explicacion: 'El relleno de labios es un tratamiento inyectable que permite dar volumen, mejorar el contorno, corregir asimetrías y aportar hidratación profunda. Se utiliza ácido hialurónico, una sustancia biocompatible y reabsorbible que el cuerpo produce de manera natural. El procedimiento se realiza en consultorio, con anestesia tópica para mayor confort. Los resultados son inmediatos y se ajustan a los deseos de cada paciente: desde un efecto muy natural hasta un mayor volumen. Además de aumentar tamaño, mejora la definición del arco de cupido y la proyección del labio.',
         video:"https://www.youtube.com/embed/fkJ9tg4GTVQ?si=57Je01Q-Pgd5XYAW",
@@ -39,7 +39,7 @@ export const servicios = [
     {id: 4, 
         rama: "Estética Facial",
         servicio: 'Facial',
-        subservicio: 'Rellenos de ácido hialurónico: Pómulos',
+        subservicio: 'Relleno de hialurónico: Pómulos',
         descripcion: 'La mesoterapia facial consiste en la aplicación de microinyecciones intradérmicas con activos específicos para rejuvenecer, hidratar y mejorar la calidad de la piel.',
         explicacion: 'PDRN (Polidesoxirribonucleótidos)Estimula regeneración celular profunda, Aumenta producción de colágeno, Mejora cicatrización, Reduce inflamación, Mejora textura y luminosidad. NCTF (New Cellular Treatment Factor): Hidrata profundamente, Revitaliza piel apagada, Mejora tono y luminosidad, Atenúa líneas finas, Previene envejecimiento ',
         img:'/servicios/facial/RAHP.webp'
@@ -47,7 +47,7 @@ export const servicios = [
     {id: 5, 
         rama: "Estética Facial",
         servicio: 'Facial',
-        subservicio: 'Rellenos de ácido hialurónico: Mentón',
+        subservicio: 'Relleno de hialurónico: Mentón',
         descripcion: 'Es un bioestimulador dérmico a base de hidroxiapatita de calcio (CaHA) que no solo aporta volumen inmediato, sino que estimula la producción natural de colágeno.',
         explicacion: '1️⃣ Efecto inmediato: Aporta volumen y mejora la estructura de la zona tratada. 2️⃣ Efecto biológico progresivo: Estimula los fibroblastos para producir colágeno nuevo, logrando firmeza sostenida en el tiempo. Con el paso de los meses, el gel se reabsorbe y queda el colágeno generado por el propio cuerpo',
         img:'/servicios/facial/RHIM.webp'
@@ -55,7 +55,7 @@ export const servicios = [
     {id: 6, 
         rama: "Estética Facial",
         servicio: 'Facial',
-        subservicio: 'Rellenos de ácido hialurónico: Ojeras',
+        subservicio: 'Relleno de hialurónico: Ojeras',
         descripcion: 'El relleno de labios es un tratamiento estético mínimamente invasivo que utiliza ácido hialurónico para mejorar volumen, definición e hidratación de los labios, respetando la armonía facial.',
         explicacion: 'Es una sustancia naturalmente presente en el cuerpo que: Aporta hidratación, Retiene agua, Da volumen, Mejora elasticidad, Al aplicarse en labios, permite un resultado natural y moldeable.',
         img:'/servicios/facial/RAHO.webp'

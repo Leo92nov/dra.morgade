@@ -169,9 +169,7 @@ export default function Dra() {
 
         {/* SLIDER DEBAJO DE LA IMAGEN */}
 
-        <div
-          className={[
-            "relative mt-8 w-full transition-all duration-700",
+        <div className={["relative mt-8 w-full transition-all duration-700",
             showListones
               ? "translate-y-0 opacity-100"
               : "translate-y-6 opacity-0",
@@ -193,16 +191,16 @@ export default function Dra() {
               <div
                 key={item.titulo}
                 className="
-                  flex min-w-full
+                  flex w-[95%] sm:w-full
                   shrink-0 snap-center
                   items-center justify-center
-                  px-5
+                  px-5 
                   sm:px-8
                 "
               >
                 <div
                   className="
-                    w-full max-w-[400px]
+                    w-full max-w-[400px] 
                     rounded-2xl
                     border border-[#d8d0bf]
                     bg-white
