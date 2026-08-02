@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
 const slides = [
-    { img: "/CTA/CTA1.webp", title: "Dra. Morgade.", subtitle: "Realza tu belleza natural." },
-    { img: "/CTA/CTA2.webp", title: "Resultados naturales.", subtitle: "Tecnología estética a tu servicio." },
-    { img: "/CTA/CTA3.webp", title: "Cuidado personalizado.", subtitle: "Planes diseñados para vos." },
-    { img: "/CTA/CTA4.webp", title: "Rejuvenecimiento facial.", subtitle: "Alcanza tu mejor version" },
+    { img: "/CTA/CTA1.webp", title: "Dra. Morgade.", subtitle: "Realzá tu belleza natural." },
+    { img: "/CTA/CTA2.webp", title: "Resultados naturales.", subtitle: "La medicina a tu servicio." },
+    { img: "/CTA/CTA3.webp", title: "Volvé a sentirete plena.", subtitle: "Medicina funcional que regenera." },
+    { img: "/CTA/CTA4.webp", title: "Plenitud y Bienestar.", subtitle: "Volvé a ser vos" },
     { img: "/CTA/CTA5.webp", title: "Veni a conocernos.", subtitle: "Agendá tu consulta hoy." },
 ];
 

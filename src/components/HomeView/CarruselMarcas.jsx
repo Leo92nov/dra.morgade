@@ -35,9 +35,9 @@ export default function CarruselMarcas() {
     <div className="mt-8 mb-26 flex items-center justify-center gap-6 px-6">
       <span className="h-px flex-1 bg-[#d8d0bf]" />
 
-      <h2 className="shrink-0 text-center text-3xl font-garamond text-[#31523a]">
-        Utilizamos solo marcas líderes en su campo
-      </h2>
+        <h2 className="max-w-[75%] text-center font-garamond text-2xl leading-tight text-[#31523a] sm:max-w-none sm:text-3xl">
+          Utilizamos solo marcas líderes en su campo
+        </h2>
 
        <span className="h-px flex-1 bg-[#d8d0bf]" />
       </div>
