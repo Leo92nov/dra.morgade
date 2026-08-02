@@ -64,17 +64,6 @@ export default function ContactView() {
 
         <div className="mx-auto h-px w-24 bg-[#b8aa8e]" />
 
-        <p
-          className="
-            mx-auto mt-5 max-w-2xl
-            font-montserrat text-sm
-            leading-7 text-[#556057]
-            sm:text-base
-          "
-        >
-          Te esperamos para asesorarte con un enfoque médico, cercano y
-          personalizado.
-        </p>
       </header>
 
       <section className="relative z-10 px-4 py-16 sm:px-6 lg:px-8">
