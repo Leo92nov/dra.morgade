@@ -59,54 +59,99 @@ const isHome = location.pathname === "/";
       <nav className="w-full mx-auto">
 
         {/* MOBILE */}
-        <section className="lg:hidden w-full">
-          <div className="w-full flex items-center justify-between px-4">
-            <Link to="/" className="flex items-center py-2" onClick={closeAll}>
-              <img className="h-[72px] w-auto" src="/Logos/logonv.webp" alt="" />
-            </Link>
+<section className="lg:hidden w-full">
+  {/* Logo */}
+  <div className="w-full flex flex-col items-center pt-3 pb-4">
+    <Link
+      to="/"
+      className="flex justify-center"
+      onClick={closeAll}
+    >
+      <img
+        className="h-[72px] w-auto"
+        src="/Logos/logonv.webp"
+        alt="Dra. Verónica Morgade"
+      />
+    </Link>
 
-            <button
-              onClick={() => setMobileOpen((v) => !v)}
-              className="p-3 rounded-xl hover:bg-black/5 active:scale-95 transition"
-            >
-              <span className="block w-6 h-[2px] bg-black mb-1" />
-              <span className="block w-6 h-[2px] bg-black mb-1" />
-              <span className="block w-6 h-[2px] bg-black" />
-            </button>
-          </div>
+    {/* Línea + hamburguesa */}
+    <button
+      type="button"
+      onClick={() => setMobileOpen((v) => !v)}
+      aria-label={mobileOpen ? "Cerrar menú" : "Abrir menú"}
+      className="mt-3 flex w-full items-center justify-center px-4"
+    >
+      <span className="h-px flex-1 bg-[#d8d0bf]" />
 
-          <div
-            className={`overflow-hidden transition-all duration-300 ease-out ${
-              mobileOpen ? "max-h-[560px] opacity-100" : "max-h-0 opacity-0"
-            }`}
-          >
-            <div className="px-4 pb-4">
-              <div className="flex flex-col gap-2 pt-2">
+      <span className="relative mx-5 flex h-6 w-6 items-center justify-center">
+        <span
+          className={`absolute h-[2px] w-6 bg-[#27532f] transition-all duration-300 ${
+            mobileOpen ? "rotate-45" : "-translate-y-2"
+          }`}
+        />
 
-                <Link to="/" className="px-4 py-3 rounded-xl hover:bg-black/5" onClick={closeAll}>
-                  <h2 className="text-xl font-garamond">Inicio</h2>
-                </Link>
+        <span
+          className={`absolute h-[2px] w-6 bg-[#27532f] transition-all duration-300 ${
+            mobileOpen ? "opacity-0" : ""
+          }`}
+        />
 
-                <Link
-  to="/Servicios"
-  className="px-4 py-3 rounded-xl hover:bg-black/5"
-  onClick={closeAll}
->
-  <h2 className="text-xl font-garamond">Servicios</h2>
-</Link>
+        <span
+          className={`absolute h-[2px] w-6 bg-[#27532f] transition-all duration-300 ${
+            mobileOpen ? "-rotate-45" : "translate-y-2"
+          }`}
+        />
+      </span>
 
-                <Link to="/Nosotras" className="px-4 py-3 rounded-xl hover:bg-black/5" onClick={closeAll}>
-                  <h2 className="text-xl font-garamond">Nosotras</h2>
-                </Link>
+      <span className="h-px flex-1 bg-[#d8d0bf]" />
+    </button>
+  </div>
 
-                <Link to="/Contacto" className="px-4 py-3 rounded-xl hover:bg-black/5" onClick={closeAll}>
-                  <h2 className="text-xl font-garamond">Contacto</h2>
-                </Link>
+  {/* Menú desplegable */}
+  <div
+    className={`overflow-hidden transition-all duration-300 ease-out ${
+      mobileOpen ? "max-h-[560px] opacity-100" : "max-h-0 opacity-0"
+    }`}
+  >
+    <div className="px-4 pt-4 pb-4">
+      <div className="flex flex-col gap-2">
 
-              </div>
-            </div>
-          </div>
-        </section>
+        <Link
+          to="/"
+          className="px-4 py-3 rounded-xl hover:bg-black/5"
+          onClick={closeAll}
+        >
+          <h2 className="text-xl font-garamond">Inicio</h2>
+        </Link>
+
+        <Link
+          to="/Servicios"
+          className="px-4 py-3 rounded-xl hover:bg-black/5"
+          onClick={closeAll}
+        >
+          <h2 className="text-xl font-garamond">Servicios</h2>
+        </Link>
+
+        <Link
+          to="/Nosotras"
+          className="px-4 py-3 rounded-xl hover:bg-black/5"
+          onClick={closeAll}
+        >
+          <h2 className="text-xl font-garamond">Nosotras</h2>
+        </Link>
+
+        <Link
+          to="/Contacto"
+          className="px-4 py-3 rounded-xl hover:bg-black/5"
+          onClick={closeAll}
+        >
+          <h2 className="text-xl font-garamond">Contacto</h2>
+        </Link>
+
+      </div>
+    </div>
+  </div>
+</section>
 
         {/* DESKTOP */}
 <section className="hidden lg:block w-full">
