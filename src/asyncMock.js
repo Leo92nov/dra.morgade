@@ -25,7 +25,7 @@ export const servicios = [
         subservicio: 'Sunekos',
         descripcion: 'Es un bioestimulador dérmico inyectable compuesto por ácido hialurónico no reticulado combinado con aminoácidos específicos, que se utiliza para la regeneración de la matriz extra celular, ayudando a estimular la síntesis fisiológica de colágeno tipo I y III y elastina.',
         explicacion: 'Los bioestimuladores de colágeno representan la última revolución en la medicina estética regenerativa para combatir la flacidez y el descolgamiento de los tejidos de forma natural y altamente duradera. Este procedimiento médico consiste en la infiltración de sustancias biocompatibles y reabsorbiblesA diferencia de los rellenos tradicionales, su principal función no es aportar volumen artificial, sino inducir a los fibroblastos a producir grandes cantidades de colágeno y elastina nuevos. Como resultado, se genera una reestructuración interna de la dermis que devuelve la firmeza, define el óvalo facial y promueve un efecto lifting progresivo y un rejuvenecimiento tridimensional genuino.',
-        img:'/servicios/facial/sunekos.webp'
+        img:'/servicios/facial/S.webp'
     },
     {id: 8, 
         rama: "Estética Facial",
@@ -51,13 +51,13 @@ export const servicios = [
         subservicio: 'Hilos tensores PDO',
         descripcion: 'Son hilos reabsorbibles utilizados para producir rejuvenecimiento facial mediante efecto tensor y bio estimulación dérmica.',
         explicacion: 'Los hilos de Polidioxanona (PDO) representan uno de los tratamientos médicos más innovadores y demandados para combatir de forma segura los signos de la flacidez y el envejecimiento del rostro. Este procedimiento consiste en la introducción subdérmica de hilos completamente reabsorbibles y biocompatibles que actúan bajo un doble mecanismo: generan un soporte estructural inmediato con efecto tensor y promueven una bioestimulación dérmica profunda a mediano plazo. Si bien es importante destacar que no reemplazan los resultados de una cirugía de estiramiento facial, se consolidan como la alternativa médica no quirúrgica ideal para recuperar los contornos perdidos, mejorar la calidad global de la piel y aportar un tensado natural y progresivo.',
-        img:'/servicios/facial/hilos.webp',
+        img:'/servicios/facial/H.webp',
         video:"https://www.youtube.com/embed/8jleo2LSjb4?si=bl4R5d2uUrmE211U"
     },
     {id: 13, 
         rama: "Estética Facial",
         servicio: 'Facial',
-        subservicio: 'Mesoterapia PDRN y NCTF',
+        subservicio: 'Mesoterapia',
         descripcion: 'La Mesoterapia Facial consiste en la aplicación de pequeñas cantidades de activos específicos (vitaminas, antioxidantes, ácido hialurónico, minerales) directamente en la piel mediante microinyecciones.',
         explicacion: 'La mesoterapia facial es un tratamiento médico-estético de bioestimulación y nutrición celular diseñado para devolverle la vitalidad y frescura natural al rostro desde sus capas más internas. Este procedimiento consiste en la aplicación de microinyecciones superficiales que introducen de forma directa en la piel un exclusivo cóctel de activos específicos de grado médico, tales como ácido hialurónico, vitaminas, antioxidantes y minerales. Su acción localizada convierte a esta terapia en la alternativa ideal para revertir el daño ambiental cotidiano, aportando una hidratación profunda que revitaliza las pieles ',
         img:'/servicios/facial/mesop.webp',
@@ -69,7 +69,7 @@ export const servicios = [
         subservicio: 'Microneedling: Dermaglow e Hidralips',
         descripcion: 'El microneedling es uno de los tratamientos médicos no invasivos más eficaces y revolucionarios para restaurar por completo la textura, firmeza y juventud de la piel de forma mecánica y natural.',
         explicacion: 'El microneedling es uno de los tratamientos médicos no invasivos más eficaces y revolucionarios para restaurar por completo la textura, firmeza y juventud de la piel de forma mecánica y natural. Este procedimiento consiste en la utilización de un dispositivo médico de última generación provisto de microagujas ultra finas que realizan microperforaciones controladas en la superficie cutánea, desencadenando el proceso natural de autocuración del organismo. Al activar esta respuesta biológica, se estimula de manera profunda la producción de colágeno y elastina nuevos, al mismo tiempo que se crean microcanales que multiplican la absorción de los principios activos aplicados durante la sesión. Su versatilidad lo convierte en el aliado definitivo para renovar la superficie de la piel y corregir imperfecciones sin necesidad de tiempos de recuperación prolongados.',
-        img:'/servicios/facial/microneed.webp'
+        img:'/servicios/facial/microneed.jpg'
     },
     {id: 15, 
         rama: "Estética Facial",
