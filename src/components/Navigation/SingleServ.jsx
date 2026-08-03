@@ -18,7 +18,7 @@ export default function SingleServ() {
 
             <section className="2xl:w-[70%]
                             xl: w-[80%]
-                            lg:w-[90%] lg:mx-auto                          
+                            lg:w-[90%] lg:mx-auto mb-12                        
                             w-full">
                 <h1 className="text-3xl font-garamond text-center my-12">Descubrí nuestro tratamiento de {servicioUnico.subservicio}</h1>
                 <article className="2xl:flex 2xl:flex-row 2xl:justify-around
