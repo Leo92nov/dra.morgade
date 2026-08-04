@@ -158,7 +158,7 @@ export default function Dra() {
 
         <div className="w-full overflow-hidden">
           <img
-            src="/listones/TC.jpg"
+            src="/listones/TC.webp"
             alt="Dra. Verónica Morgade"
             className="
               block h-auto w-full
