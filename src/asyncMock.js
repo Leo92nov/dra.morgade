@@ -69,7 +69,7 @@ export const servicios = [
         subservicio: 'Microneedling: Dermaglow e Hidralips',
         descripcion: 'El microneedling es uno de los tratamientos médicos no invasivos más eficaces y revolucionarios para restaurar por completo la textura, firmeza y juventud de la piel de forma mecánica y natural.',
         explicacion: 'El microneedling es uno de los tratamientos médicos no invasivos más eficaces y revolucionarios para restaurar por completo la textura, firmeza y juventud de la piel de forma mecánica y natural. Este procedimiento consiste en la utilización de un dispositivo médico de última generación provisto de microagujas ultra finas que realizan microperforaciones controladas en la superficie cutánea, desencadenando el proceso natural de autocuración del organismo. Al activar esta respuesta biológica, se estimula de manera profunda la producción de colágeno y elastina nuevos, al mismo tiempo que se crean microcanales que multiplican la absorción de los principios activos aplicados durante la sesión. Su versatilidad lo convierte en el aliado definitivo para renovar la superficie de la piel y corregir imperfecciones sin necesidad de tiempos de recuperación prolongados.',
-        img:'/servicios/facial/microneed.jpg'
+        img:'/servicios/facial/microneed.webp'
     },
     {id: 15, 
         rama: "Estética Facial",
