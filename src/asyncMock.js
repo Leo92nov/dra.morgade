@@ -145,7 +145,7 @@ export const servicios = [
         subservicio: 'Plasma Rico en Plaquetas',
         descripcion: 'El Plasma Rico en Plaquetas (PRP) corporal con enfoque de recuperación es un tratamiento médico regenerativo de alta precisión diseñado para acelerar la reparación natural de los tejidos.',
         explicacion: 'El Plasma Rico en Plaquetas (PRP) corporal con enfoque de recuperación es un tratamiento médico regenerativo de alta precisión diseñado para acelerar la reparación natural de los tejidos, articulaciones y zonas propensas al desgaste o sobreexigencia física. Este procedimiento biológico consiste en la extracción de una pequeña muestra de sangre del propio paciente, la cual se procesa mediante un sistema de centrifugado clínico para aislar y concentrar los factores de crecimiento presentes en las plaquetas. Posteriormente, este plasma autólogo purificado se aplica mediante microinyecciones localizadas directamente en las áreas afectadas, como hombros, rodillas, codos o tendones, estimulando una profunda autoreparación celular. Al utilizar los recursos biológicos del propio organismo, garantiza un proceso de curación interno 100% natural, seguro y libre de reacciones alérgicas o rechazo.',
-        img:'/servicios/corporal/PRPC.webp'
+        img:'/servicios/corporal/PRPC.jpg'
     },
     {id: 24, 
         rama: "Tratamientos Capilares",
